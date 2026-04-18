@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Services – Glondia</title>
+  <!-- Global, consolidated stylesheet for ALL pages -->
+  <link rel="stylesheet" href="site.css" />
+  <!-- Font Awesome for icons -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body id="page--services" class="page">
+  <!-- === Global Header (note: role='navigation') === -->
+  <header id="site-header" class="site-header" role="banner">
+    <div class="container header__inner">
+      <a class="brand" id="brand" href="index" aria-label="Glondia home">
+        <img class="brand__logo" src="imgs/logo.png" alt="Glondia logo" />
+        <span class="brand__name">Glondia</span>
+      </a>
+
+      <!-- Primary nav (use class & id, keep semantic nav element) -->
+      <nav id="primary-nav" class="nav" aria-label="Primary">
+    <a class="nav__link" href="index" data-nav="home">Home</a>
+        <a class="nav__link" href="portfolio" data-nav="portfolio">Portfolio</a>
+        <a class="nav__link" href="portfolio" data-nav="portfolio">Research</a>
+        <a class="nav__link" href="portfolio" data-nav="portfolio">Services</a>
+        <a class="nav__link" href="Consultants" data-nav="services">Consultants</a>
+        <a class="nav__link" href="contact" data-nav="contact">Contact</a>
+        <a class="nav__link" href="about" data-nav="about">About</a>
+        <a class="nav__link" href="AI-Coming_soonPage" data-nav="about">AI Chat</a>    <!-- Analyist, FrontDesk, Taxadvisor, Advisor -->
+      </nav>
+      </nav>
+
+      <button id="hamburger" class="hamburger" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+
+    <!-- Mobile menu (toggled by #hamburger) -->
+    <div id="mobile-menu" class="mobile-menu" role="dialog" aria-label="Mobile Menu">
+  <a href="" class="mobile-menu__link"><i class="fas fa-home"></i> Home</a>
+  <a href="portfolio" class="mobile-menu__link"><i class="fas fa-briefcase"></i> Portfolio</a>
+  <a href="Research" class="mobile-menu__link"><i class="fas fa-flask"></i> Research</a>
+  <a href="services" class="mobile-menu__link"><i class="fas fa-cogs"></i> Services</a>
+  <a href="Consultants" class="mobile-menu__link"><i class="fas fa-users"></i> Consultants</a>
+  <a href="contact" class="mobile-menu__link"><i class="fas fa-envelope"></i> Contact</a>
+  <a href="about" class="mobile-menu__link"><i class="fas fa-info-circle"></i> About</a>
+  <a href="AI-Coming_soonPage" class="mobile-menu__link"><i class="fas fa-robot"></i> AI Chat</a>
+    </div>
+  </header>
+
+  <main id="content" class="content" tabindex="-1">
+
+    <section id="services" class="section services">
+      <div class="container">
+        <h2 class="section__title">Full-Service Analytics & Consulting</h2>
+        <p class="muted">From IT & Data to Economic and Financial analysis—custom reports, dashboards, and actionable recommendations.</p>
+        <div class="service-grid">
+          <article class="service card">
+            <h3 class="service__title">IT &amp; Data Analysis</h3>
+            <ul class="service__list">
+              <li>Data collection &amp; cleaning</li>
+              <li>Descriptive &amp; diagnostic analytics</li>
+              <li>Predictive &amp; prescriptive analytics</li>
+              <li>Big data &amp; AI solutions</li>
+              <li>Visualization &amp; dashboards</li>
+              <li>Time series &amp; trend analysis</li>
+              <li>Text &amp; sentiment analysis</li>
+              <li>Data mining &amp; pattern discovery</li>
+            </ul>
+          </article>
+          <article class="service card">
+            <h3 class="service__title">Economic Analysis</h3>
+            <ul class="service__list">
+              <li>Micro &amp; macroeconomic analysis</li>
+              <li>Cost-benefit &amp; feasibility studies</li>
+              <li>Trade &amp; globalization insights</li>
+              <li>Econometric &amp; statistical modeling</li>
+              <li>Supply &amp; demand analysis</li>
+              <li>Forecasting &amp; scenario planning</li>
+            </ul>
+          </article>
+          <article class="service card">
+            <h3 class="service__title">Financial &amp; Accounting</h3>
+            <ul class="service__list">
+              <li>Financial statements review</li>
+              <li>Ratio &amp; performance analysis</li>
+              <li>Cost analysis &amp; budgeting</li>
+              <li>Investment appraisal (NPV, IRR, payback)</li>
+              <li>Variance analysis</li>
+              <li>Forensic accounting &amp; fraud detection</li>
+              <li>Tax planning &amp; compliance</li>
+            </ul>
+          </article>
+          <article class="service card">
+            <h3 class="service__title">Business &amp; Strategy</h3>
+            <ul class="service__list">
+              <li>SWOT, PESTLE, Porter’s Five Forces</li>
+              <li>Market &amp; competitor analysis</li>
+              <li>Customer &amp; behavioral analysis</li>
+              <li>Performance &amp; KPI monitoring</li>
+              <li>Risk management &amp; scenario analysis</li>
+            </ul>
+          </article>
+          <article class="service card">
+            <h3 class="service__title">Specialized &amp; Cross-Functional</h3>
+            <ul class="service__list">
+              <li>Policy &amp; regulatory impact analysis</li>
+              <li>Environmental &amp; sustainability analysis</li>
+              <li>Healthcare, social, and demographic analytics</li>
+              <li>Operations &amp; supply chain analysis</li>
+            </ul>
+          </article>
+          <article class="service card">
+            <h3 class="service__title">Deliverables &amp; Value</h3>
+            <ul class="service__list">
+              <li>Custom reports &amp; dashboards</li>
+              <li>Actionable recommendations</li>
+              <li>Workshops &amp; training</li>
+              <li>Ongoing monitoring &amp; advisory support</li>
+            </ul>
+          </article>
+
+          <!-- ===== Added HR Services (kept same structure & classes) ===== -->
+          <article class="service card">
+            <h3 class="service__title">Human Resources (HR) Services</h3>
+            <ul class="service__list">
+              <li>Recruitment &amp; talent acquisition</li>
+              <li>Onboarding &amp; offboarding programs</li>
+              <li>Performance management frameworks (OKRs/KPIs)</li>
+              <li>Employee relations &amp; engagement</li>
+              <li>Policy drafting &amp; handbook development</li>
+              <li>Workforce planning &amp; org design</li>
+              <li>Compliance &amp; workplace investigations</li>
+            </ul>
+          </article>
+
+          <article class="service card">
+            <h3 class="service__title">Compensation, Benefits &amp; HR Ops</h3>
+            <ul class="service__list">
+              <li>Compensation benchmarking &amp; salary structures</li>
+              <li>Benefits design &amp; administration</li>
+              <li>Payroll setup, audits &amp; optimization</li>
+              <li>Leave management &amp; attendance</li>
+              <li>Learning &amp; development (L&amp;D) programs</li>
+              <li>HRIS selection, rollout &amp; support</li>
+              <li>HR process mapping &amp; SOPs</li>
+            </ul>
+          </article>
+          <!-- ===== /Added HR Services ===== -->
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- === Global Footer === -->
+  <footer id="site-footer" class="site-footer">
+    <div class="container footer__grid">
+      <section class="footer__col">
+        <h4 class="footer__title">Glondia</h4>
+        <p class="footer__text">We partner with SMEs to deliver analytics, economics, finance, and strategy—turning insights into growth.</p>
+      </section>
+      <section class="footer__col">
+        <h4 class="footer__title">Links</h4>
+        <ul class="footer__list">
+          <li><a class="footer__link" href="index">Home</a></li>
+          <li><a class="footer__link" href="services">Services</a></li>
+          <li><a class="footer__link" href="portfolio">Portfolio</a></li>
+          <li><a class="footer__link" href="about">About</a></li>
+          <li><a class="footer__link" href="contact">Contact</a></li>
+        </ul>
+      </section>
+      <section class="footer__col">
+        <h4 class="footer__title">Action</h4>
+        <p><button class="btn btn--primary" id="apply-btn" type="button">Apply Now</button></p>
+        <small>© <span id="year"></span> Glondia Analysts &amp; Consultancy</small>
+      </section>
+    </div>
+  </footer>
+
+  <!-- Global script -->
+  <script src="site.js" defer></script>
+</body>
+</html>

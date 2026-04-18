@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Glondia Analysts & Consultancy</title>
+  <!-- Global, consolidated stylesheet for ALL pages -->
+  <link rel="stylesheet" href="site.css" />
+  <!-- Font Awesome for icons -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZG1FDQFY87"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZG1FDQFY87');
+</script>
+
+<body id="page--home" class="page">
+  <!-- === Global Header (note: role='navigation') === -->
+  <header id="site-header" class="site-header" role="banner">
+    <div class="container header__inner">
+      <a class="brand" id="brand" href="index" aria-label="Glondia home">
+        <img class="brand__logo" src="imgs/logo.png" alt="Glondia logo" />
+        <span class="brand__name">Glondia</span>
+      </a>
+
+      <!-- Primary nav (use class & id, keep semantic nav element) -->
+      <nav id="primary-nav" class="nav" aria-label="Primary">
+        <a class="nav__link" href="index" data-nav="home">Home</a>
+        <a class="nav__link" href="portfolio" data-nav="portfolio">Portfolio</a>
+        <a class="nav__link" href="Research" data-nav="portfolio">Research</a>
+        <a class="nav__link" href="services" data-nav="portfolio">Services</a>
+        <a class="nav__link" href="Consultants" data-nav="services">Consultants</a>
+        <a class="nav__link" href="contact" data-nav="contact">Contact</a>
+        <a class="nav__link" href="about" data-nav="about">About</a>
+        <a class="nav__link" href="AI-Coming_soonPage" data-nav="about">AI Chat</a>    <!-- Analyist, FrontDesk, Taxadvisor, Advisor -->
+      </nav>
+      </nav>
+
+      <button id="hamburger" class="hamburger" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+
+    <!-- Mobile menu (toggled by #hamburger) -->
+    <div id="mobile-menu" class="mobile-menu" role="dialog" aria-label="Mobile Menu">
+  <a href="" class="mobile-menu__link"><i class="fas fa-home"></i> Home</a>
+  <a href="portfolio" class="mobile-menu__link"><i class="fas fa-briefcase"></i> Portfolio</a>
+  <a href="Research" class="mobile-menu__link"><i class="fas fa-flask"></i> Research</a>
+  <a href="services" class="mobile-menu__link"><i class="fas fa-cogs"></i> Services</a>
+  <a href="Consultants" class="mobile-menu__link"><i class="fas fa-users"></i> Consultants</a>
+  <a href="contact" class="mobile-menu__link"><i class="fas fa-envelope"></i> Contact</a>
+  <a href="about" class="mobile-menu__link"><i class="fas fa-info-circle"></i> About</a>
+  <a href="AI-Coming_soonPage" class="mobile-menu__link"><i class="fas fa-robot"></i> AI Chat</a>
+    </div>
+  </header>
+
+ <main id="content" class="content" tabindex="-1">
+  <!-- HERO (index only) -->
+  <section id="home" class="section hero">
+    <div class="svg_background_wrapper"></div> <!-- this sits behind content -->
+
+    <div class="container hero__grid">
+      <div class="hero__text">
+        <h1 class="hero__title">Glondia Analysts & Consultancy</h1>
+        <p class="hero__lead">
+          Thank you for visiting Glondia. Welcome! We are building something great here, and we want you to be part of our world.
+        </p>
+        <p class="hero__tagline"><strong>Glondia Is Your Personal Business Partner.</strong></p>
+        <div class="hero__badges">
+          <span class="badge">Data Analytics</span>
+          <span class="badge">Economics</span>
+          <span class="badge">Finance</span>
+          <span class="badge">Human Resource</span>
+          <span class="badge">Business</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+  <!-- === Global Footer === -->
+  <footer id="site-footer" class="site-footer">
+    <div class="container footer__grid">
+      <section class="footer__col">
+        <h4 class="footer__title">Glondia</h4>
+        <p class="footer__text">We partner with SMEs to deliver analytics, economics, finance, and strategy—turning insights into growth.</p>
+      </section>
+      <section class="footer__col">
+        <h4 class="footer__title">Links</h4>
+        <ul class="footer__list">
+        <a class="nav__link" href="index" data-nav="home">Home</a>
+        <a class="nav__link" href="portfolio" data-nav="portfolio">Portfolio</a>
+        <a class="nav__link" href="Research" data-nav="portfolio">Research</a>
+        <a class="nav__link" href="services" data-nav="portfolio">Services</a>
+        <a class="nav__link" href="Consultants" data-nav="services">Consultants</a>
+        <a class="nav__link" href="contact" data-nav="contact">Contact</a>
+        <a class="nav__link" href="about" data-nav="about">About</a>
+        <a class="nav__link" href="AI-Coming_soonPage" data-nav="about">AI Chat</a>    <!-- Analyist, FrontDesk, Taxadvisor, Advisor -->
+        </ul>
+      </section>
+      <section class="footer__col">
+        <h4 class="footer__title">Action</h4>
+        <p><button href="apply" class="btn btn--primary" id="apply-btn" type="button"> Apply Now</button></p>
+        <small>© <span id="year"></span> Glondia Analysts &amp; Consultancy</small>
+      </section>
+    </div>
+  </footer>
+
+  <!-- Global script -->
+  <script src="site.js" defer></script>
+</body>
+</html>

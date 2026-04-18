@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About – Glondia</title>
+  <!-- Global, consolidated stylesheet for ALL pages -->
+  <link rel="stylesheet" href="site.css" />
+  <!-- Font Awesome for icons -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body id="page--about" class="page">
+  <!-- === Global Header (note: role='navigation') === -->
+  <header id="site-header" class="site-header" role="banner">
+    <div class="container header__inner">
+      <a class="brand" id="brand" href="index" aria-label="Glondia home">
+        <img class="brand__logo" src="imgs/logo.png" alt="Glondia logo" />
+        <span class="brand__name">Glondia</span>
+      </a>
+
+      <!-- Primary nav (use class & id, keep semantic nav element) -->
+      <nav id="primary-nav" class="nav" aria-label="Primary">
+        <a class="nav__link" href="index" data-nav="home">Home</a>
+        <a class="nav__link" href="portfolio" data-nav="portfolio">Portfolio</a>
+        <a class="nav__link" href="Research" data-nav="portfolio">Research</a>
+        <a class="nav__link" href="services" data-nav="portfolio">Services</a>
+        <a class="nav__link" href="Consultants" data-nav="services">Consultants</a>
+        <a class="nav__link" href="contact" data-nav="contact">Contact</a>
+        <a class="nav__link" href="about" data-nav="about">About</a>
+        <a class="nav__link" href="AI-Coming_soonPage" data-nav="about">AI Chat</a>    <!-- Analyist, FrontDesk, Taxadvisor, Advisor -->
+      </nav>
+
+      <button id="hamburger" class="hamburger" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+
+    <!-- Mobile menu (toggled by #hamburger) -->
+    <div id="mobile-menu" class="mobile-menu" role="dialog" aria-label="Mobile Menu">
+  <a href="" class="mobile-menu__link"><i class="fas fa-home"></i> Home</a>
+  <a href="portfolio" class="mobile-menu__link"><i class="fas fa-briefcase"></i> Portfolio</a>
+  <a href="Research" class="mobile-menu__link"><i class="fas fa-flask"></i> Research</a>
+  <a href="services" class="mobile-menu__link"><i class="fas fa-cogs"></i> Services</a>
+  <a href="Consultants" class="mobile-menu__link"><i class="fas fa-users"></i> Consultants</a>
+  <a href="contact" class="mobile-menu__link"><i class="fas fa-envelope"></i> Contact</a>
+  <a href="about" class="mobile-menu__link"><i class="fas fa-info-circle"></i> About</a>
+  <a href="AI-Coming_soonPage" class="mobile-menu__link"><i class="fas fa-robot"></i> AI Chat</a>
+    </div>
+  </header>
+
+  <main id="content" class="content" tabindex="-1">
+
+    <section id="about" class="section about">
+      <div class="container founder card">
+        <div class="founder__portrait" aria-hidden="true">
+          <img class="founder__img" src="imgs/sadsa.png" alt="" />
+        </div>
+        <div class="founder__copy">
+          <h2 class="section__title">Founder’s Message – John Wesley Tawa</h2>
+          <p>Welcome, and thank you for taking the time to learn about Glondia. We’re passionate about helping Papua New Guinean enterprises scale with efficient resource allocation and strong, data‑driven decision making.</p>
+          <p>Our dream is to enable SMEs to grow their wealth across PNG and the Pacific. Markets are ripe and ready—innovations have opened opportunities we never knew existed. Partner with us to move your business into the future.</p>
+          <p><b>Glondia is your personal business partner.</b></p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  
+  <!-- === Download Tab === -->
+  <section class="download-tab">
+    <h3>Want to Know More?</h3>
+    <a href="files/Glondia_Business_Profile_sample.pdf" download>
+      <i class="fa-solid fa-download"></i> Download Our Company Profile
+    </a>
+  </section>
+
+
+  <!-- === Global Footer === -->
+  <footer id="site-footer" class="site-footer">
+    <div class="container footer__grid">
+      <section class="footer__col">
+        <h4 class="footer__title">Glondia</h4>
+        <p class="footer__text">We partner with SMEs to deliver analytics, economics, finance, and strategy—turning insights into growth.</p>
+      </section>
+      <section class="footer__col">
+        <h4 class="footer__title">Links</h4>
+        <ul class="footer__list">
+          <li><a class="footer__link" href="index#home">Home</a></li>
+          <li><a class="footer__link" href="services#services">Services</a></li>
+          <li><a class="footer__link" href="portfolio#portfolio">Portfolio</a></li>
+          <li><a class="footer__link" href="about#about">About</a></li>
+          <li><a class="footer__link" href="contact#contact">Contact</a></li>
+        </ul>
+      </section>
+      <section class="footer__col">
+        <h4 class="footer__title">Action</h4>
+        <p> <a href="apply" class="btn btn--primary" id="apply-btn">Apply Now</a></p>
+        <small>© <span id="year"></span> Glondia Analysts &amp; Consultancy</small>
+      </section>
+    </div>
+  </footer>
+
+  <!-- Global script -->
+  <script src="site.js" defer></script>
+</body>
+</html>

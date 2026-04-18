@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Consultants – Glondia</title>
+  <link rel="stylesheet" href="site.css" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body id="page--consultants" class="page">
+
+  <!-- === Global Header === -->
+  <header id="site-header" class="site-header" role="banner">
+    <div class="container header__inner">
+      <a class="brand" id="brand" href="index" aria-label="Glondia home">
+        <img class="brand__logo" src="imgs/logo.png" alt="Glondia logo" />
+        <span class="brand__name">Glondia</span>
+      </a>
+
+      <nav id="primary-nav" class="nav" aria-label="Primary">
+    <a class="nav__link" href="index" data-nav="home">Home</a>
+        <a class="nav__link" href="portfolio" data-nav="portfolio">Portfolio</a>
+        <a class="nav__link" href="portfolio" data-nav="portfolio">Research</a>
+        <a class="nav__link" href="portfolio" data-nav="portfolio">Services</a>
+        <a class="nav__link" href="Consultants" data-nav="services">Consultants</a>
+        <a class="nav__link" href="contact" data-nav="contact">Contact</a>
+        <a class="nav__link" href="about" data-nav="about">About</a>
+        <a class="nav__link" href="AI-Coming_soonPage" data-nav="about">AI Chat</a>    <!-- Analyist, FrontDesk, Taxadvisor, Advisor -->
+      </nav>
+      </nav>
+
+      <button id="hamburger" class="hamburger" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+ <!-- Mobile menu (toggled by #hamburger) -->
+    <div id="mobile-menu" class="mobile-menu" role="dialog" aria-label="Mobile Menu">
+  <a href="index" class="mobile-menu__link"><i class="fas fa-home"></i> Home</a>
+  <a href="portfolio" class="mobile-menu__link"><i class="fas fa-briefcase"></i> Portfolio</a>
+  <a href="Research" class="mobile-menu__link"><i class="fas fa-flask"></i> Research</a>
+  <a href="services" class="mobile-menu__link"><i class="fas fa-cogs"></i> Services</a>
+  <a href="Consultants" class="mobile-menu__link"><i class="fas fa-users"></i> Consultants</a>
+  <a href="contact" class="mobile-menu__link"><i class="fas fa-envelope"></i> Contact</a>
+  <a href="about" class="mobile-menu__link"><i class="fas fa-info-circle"></i> About</a>
+  <a href="AI-Coming_soonPage" class="mobile-menu__link"><i class="fas fa-robot"></i> AI Chat</a>
+    </div>
+  </header>
+
+  <main id="content" class="content" tabindex="-1">
+
+    <section id="consultants" class="section consultants">
+      <div class="container">
+        <h2 class="section__title">Meet Our Consultants</h2>
+        <p class="section__intro">Our team of consultants brings deep expertise across analytics, economics, finance, and strategy. Learn more and reach out directly to collaborate.</p>
+
+        <div id="consultants-filters" class="filters" aria-label="Consultant filters">
+          <button class="chip is-active" data-filter="all">All</button>
+          <button class="chip" data-filter="analytics">Analytics</button>
+          <button class="chip" data-filter="finance">Finance</button>
+          <button class="chip" data-filter="economics">Economics</button>
+          <button class="chip" data-filter="strategy">Strategy</button>
+        </div>
+
+        <div id="consultants-grid" class="grid">
+          <article class="card" data-tags="analytics">
+            <div class="thumb"><img src="assets/img/consultants/alex.png" alt="Alex Consultant Portrait"></div>
+            <div class="card__body">
+              <h3 class="card__title">Alex Johnson</h3>
+              <p class="muted">Senior Data Analyst specializing in predictive modeling, business intelligence, and process optimization.</p>
+              <div class="tags"><span class="tag">PowerBI</span><span class="tag">Python</span><span class="tag">Machine Learning</span></div>
+              <div class="cta-row">
+                <a href="assets/cv/AlexJohnson_CV.pdf" class="btn btn--primary btn--sm" target="_blank">View CV</a>
+                <a href="assets/cv/AlexJohnson_CV.pdf" class="btn btn--ghost btn--sm" download>Download CV</a>
+                <a href="mailto:alex.johnson@glondia.com" class="btn btn--outline btn--sm"><i class="fa-solid fa-envelope"></i> Message</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-tags="finance">
+            <div class="thumb"><img src="assets/img/consultants/maria.png" alt="Maria Consultant Portrait"></div>
+            <div class="card__body">
+              <h3 class="card__title">Maria Lopez</h3>
+              <p class="muted">Financial analyst with experience in investment appraisals, corporate valuations, and risk assessment.</p>
+              <div class="tags"><span class="tag">NPV</span><span class="tag">IRR</span><span class="tag">Valuation</span></div>
+              <div class="cta-row">
+                <a href="assets/cv/MariaLopez_CV.pdf" class="btn btn--primary btn--sm" target="_blank">View CV</a>
+                <a href="assets/cv/MariaLopez_CV.pdf" class="btn btn--ghost btn--sm" download>Download CV</a>
+                <a href="mailto:maria.lopez@glondia.com" class="btn btn--outline btn--sm"><i class="fa-solid fa-envelope"></i> Message</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-tags="economics">
+            <div class="thumb"><img src="assets/img/consultants/david.png" alt="David Consultant Portrait"></div>
+            <div class="card__body">
+              <h3 class="card__title">David Kora</h3>
+              <p class="muted">Economic policy expert focusing on market studies, SME growth, and development finance strategy.</p>
+              <div class="tags"><span class="tag">Econometrics</span><span class="tag">Policy</span><span class="tag">SME Development</span></div>
+              <div class="cta-row">
+                <a href="assets/cv/DavidKora_CV.pdf" class="btn btn--primary btn--sm" target="_blank">View CV</a>
+                <a href="assets/cv/DavidKora_CV.pdf" class="btn btn--ghost btn--sm" download>Download CV</a>
+                <a href="mailto:david.kora@glondia.com" class="btn btn--outline btn--sm"><i class="fa-solid fa-envelope"></i> Message</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-tags="strategy">
+            <div class="thumb"><img src="assets/img/consultants/sophia.png" alt="Sophia Consultant Portrait"></div>
+            <div class="card__body">
+              <h3 class="card__title">Sophia Tane</h3>
+              <p class="muted">Strategy consultant helping organizations align data insights with long-term growth goals.</p>
+              <div class="tags"><span class="tag">Corporate Strategy</span><span class="tag">Planning</span><span class="tag">Leadership</span></div>
+              <div class="cta-row">
+                <a href="assets/cv/SophiaTane_CV.pdf" class="btn btn--primary btn--sm" target="_blank">View CV</a>
+                <a href="assets/cv/SophiaTane_CV.pdf" class="btn btn--ghost btn--sm" download>Download CV</a>
+                <a href="mailto:sophia.tane@glondia.com" class="btn btn--outline btn--sm"><i class="fa-solid fa-envelope"></i> Message</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="site-footer" class="site-footer">
+    <div class="container footer__grid">
+      <section class="footer__col">
+        <h4 class="footer__title">Glondia</h4>
+        <p class="footer__text">We connect clients with expert consultants in analytics, economics, finance, and strategy—empowering growth through insight.</p>
+      </section>
+      <section class="footer__col">
+        <h4 class="footer__title">Links</h4>
+        <ul class="footer__list">
+          <li><a class="footer__link" href="index#home">Home</a></li>
+          <li><a class="footer__link" href="services#services">Services</a></li>
+          <li><a class="footer__link" href="consultants#consultants">Consultants</a></li>
+          <li><a class="footer__link" href="about#about">About</a></li>
+          <li><a class="footer__link" href="contact#contact">Contact</a></li>
+        </ul>
+      </section>
+      <section class="footer__col">
+        <h4 class="footer__title">Action</h4>
+        <p><button class="btn btn--primary" id="apply-btn" type="button">Join Our Team</button></p>
+        <small>© <span id="year"></span> Glondia Analysts &amp; Consultancy</small>
+      </section>
+    </div>
+  </footer>
+
+  <script src="site.js" defer></script>
+</body>
+</html>

@@ -1,13 +1,11 @@
 // view-db.js
-import Database from "better-sqlite3";
-
-const db = new Database("website_data.sqlite");
+import { dbOps } from "./db.js";
 
 console.log("\n=== SERVICE APPLICATIONS ===");
-console.table(db.prepare("SELECT * FROM service_applications").all());
+console.table(dbOps.getServiceApplications());
 
 console.log("\n=== JOB APPLICATIONS ===");
-console.table(db.prepare("SELECT * FROM applications").all());
+console.table(dbOps.getJobApplications());
 
 console.log("\n=== CONTACT MESSAGES ===");
-console.table(db.prepare("SELECT * FROM messages").all());
+console.table(dbOps.getMessages());

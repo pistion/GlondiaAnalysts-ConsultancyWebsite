@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project Portfolio – Glondia</title>
+  <!-- Keep same global stylesheet -->
+  <link rel="stylesheet" href="site.css" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body id="page--portfolio-jobs" class="page">
+
+  <!-- === Global Header === -->
+  <header id="site-header" class="site-header" role="banner">
+    <div class="container header__inner">
+      <a class="brand" id="brand" href="index" aria-label="Glondia home">
+        <img class="brand__logo" src="imgs/logo.png" alt="Glondia logo" />
+        <span class="brand__name">Glondia</span>
+      </a>
+
+      <nav id="primary-nav" class="nav" aria-label="Primary">
+        <a class="nav__link" href="index" data-nav="home">Home</a>
+        <a class="nav__link" href="portfolio" data-nav="portfolio">Portfolio</a>
+        <a class="nav__link" href="Research" data-nav="portfolio">Research</a>
+        <a class="nav__link" href="services" data-nav="portfolio">Services</a>
+        <a class="nav__link" href="Consultants" data-nav="services">Consultants</a>
+        <a class="nav__link" href="contact" data-nav="contact">Contact</a>
+        <a class="nav__link" href="about" data-nav="about">About</a>
+        <a class="nav__link" href="AI-Coming_soonPage" data-nav="about">AI Chat</a>    <!-- Analyist, FrontDesk, Taxadvisor, Advisor -->
+      </nav>
+
+      <button id="hamburger" class="hamburger" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+ <!-- Mobile menu (toggled by #hamburger) -->
+    <div id="mobile-menu" class="mobile-menu" role="dialog" aria-label="Mobile Menu">
+     <a href="" class="mobile-menu__link"><i class="fas fa-home"></i> Home</a>
+  <a href="portfolio" class="mobile-menu__link"><i class="fas fa-briefcase"></i> Portfolio</a>
+  <a href="Research" class="mobile-menu__link"><i class="fas fa-flask"></i> Research</a>
+  <a href="services" class="mobile-menu__link"><i class="fas fa-cogs"></i> Services</a>
+  <a href="Consultants" class="mobile-menu__link"><i class="fas fa-users"></i> Consultants</a>
+  <a href="contact" class="mobile-menu__link"><i class="fas fa-envelope"></i> Contact</a>
+  <a href="about" class="mobile-menu__link"><i class="fas fa-info-circle"></i> About</a>
+  <a href="AI-Coming_soonPage" class="mobile-menu__link"><i class="fas fa-robot"></i> AI Chat</a>
+    </div>
+  </header>
+
+  <!-- === MAIN CONTENT === -->
+  <main id="content" class="content" tabindex="-1">
+    <section id="portfolio" class="section portfolio">
+      <div class="container">
+        <h2 class="section__title">Our Portfolio of Projects & Contracts</h2>
+        <p class="section__intro">Here is a showcase of our professional projects — from recent accomplishments and ongoing contracts to upcoming work in the pipeline. Explore our diverse portfolio categorized for your convenience.</p>
+
+        <!-- FILTERS -->
+        <div id="portfolio-filters" class="filters" aria-label="Portfolio filters">
+          <button class="chip is-active" data-filter="all">All</button>
+          <button class="chip" data-filter="current">Current Projects</button>
+          <button class="chip" data-filter="recent">Recent Work</button>
+          <button class="chip" data-filter="upcoming">Upcoming & Pipeline</button>
+          <button class="chip" data-filter="it">IT & Data Systems</button>
+          <button class="chip" data-filter="economic">Economic & Policy</button>
+          <button class="chip" data-filter="finance">Finance & Investment</button>
+        </div>
+
+        <!-- === GRID OF PROJECTS === -->
+        <div id="portfolio-grid" class="grid">
+
+          <!-- === Recent Projects === -->
+          <article class="card" data-tags="recent finance">
+            <div class="thumb"><img src="assets/img/projects/retail_finance.jpg" alt="Retail Finance Project"></div>
+            <div class="card__body">
+              <h3 class="card__title">Retail Investment Expansion 2025</h3>
+              <p class="muted">Completed in early 2025, this project involved comprehensive financial modeling for a regional retail expansion strategy.</p>
+              <div class="tags"><span class="tag">Finance</span><span class="tag">Modeling</span><span class="tag">Advisory</span></div>
+              <div class="cta-row">
+                <a href="#" class="btn btn--primary btn--sm">View Project</a>
+                <a href="#" class="btn btn--ghost btn--sm">Download Summary</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-tags="recent it">
+            <div class="thumb"><img src="assets/img/projects/data_integration.jpg" alt="Data Integration Project"></div>
+            <div class="card__body">
+              <h3 class="card__title">Enterprise Data Integration (2024)</h3>
+              <p class="muted">Developed a unified data platform for logistics tracking and performance analytics across multiple regions.</p>
+              <div class="tags"><span class="tag">Data Systems</span><span class="tag">Integration</span><span class="tag">Automation</span></div>
+              <div class="cta-row">
+                <a href="#" class="btn btn--primary btn--sm">View Details</a>
+                <a href="#" class="btn btn--ghost btn--sm">Download PDF</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- === Current Projects === -->
+          <article class="card" data-tags="current economic">
+            <div class="thumb"><img src="assets/img/projects/sme_market.jpg" alt="SME Market Development"></div>
+            <div class="card__body">
+              <h3 class="card__title">PNG SME Market Development Initiative (Ongoing)</h3>
+              <p class="muted">An active consulting engagement assessing SME growth policies and regional funding opportunities.</p>
+              <div class="tags"><span class="tag">Economics</span><span class="tag">Policy</span><span class="tag">Development</span></div>
+              <div class="cta-row">
+                <a href="#" class="btn btn--primary btn--sm">View Project</a>
+                <a href="#" class="btn btn--ghost btn--sm">Download Brief</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-tags="current it">
+            <div class="thumb"><img src="assets/img/projects/powerbi_dashboard.jpg" alt="PowerBI Dashboard"></div>
+            <div class="card__body">
+              <h3 class="card__title">Real-Time Business Intelligence Dashboard</h3>
+              <p class="muted">Design and deployment of a PowerBI dashboard for ongoing sales and supply chain analysis.</p>
+              <div class="tags"><span class="tag">PowerBI</span><span class="tag">Analytics</span><span class="tag">Visualization</span></div>
+              <div class="cta-row">
+                <a href="#" class="btn btn--primary btn--sm">View Demo</a>
+                <a href="#" class="btn btn--ghost btn--sm">Download Report</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- === Upcoming / Pipeline === -->
+          <article class="card" data-tags="upcoming finance">
+            <div class="thumb"><img src="assets/img/projects/energy_project.jpg" alt="Energy Sector Project"></div>
+            <div class="card__body">
+              <h3 class="card__title">Renewable Energy Financing Project (Pipeline)</h3>
+              <p class="muted">Scheduled for 2026, this project will focus on assessing financial models for renewable infrastructure investments.</p>
+              <div class="tags"><span class="tag">Finance</span><span class="tag">Energy</span><span class="tag">Sustainability</span></div>
+              <div class="cta-row">
+                <a href="#" class="btn btn--primary btn--sm">Preview</a>
+                <a href="#" class="btn btn--ghost btn--sm">Download Outline</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-tags="upcoming strategy">
+            <div class="thumb"><img src="assets/img/projects/future_strategy.jpg" alt="Future Strategy"></div>
+            <div class="card__body">
+              <h3 class="card__title">Strategic Growth Pipeline 2026</h3>
+              <p class="muted">Upcoming portfolio of consulting projects designed to enhance SME and enterprise competitiveness across Pacific markets.</p>
+              <div class="tags"><span class="tag">Strategy</span><span class="tag">SME</span><span class="tag">Pipeline</span></div>
+              <div class="cta-row">
+                <a href="#" class="btn btn--primary btn--sm">Learn More</a>
+                <a href="#" class="btn btn--ghost btn--sm">Download Prospectus</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- === FOOTER === -->
+  <footer id="site-footer" class="site-footer">
+    <div class="container footer__grid">
+      <section class="footer__col">
+        <h4 class="footer__title">Glondia</h4>
+        <p class="footer__text">We deliver results across analytics, economics, finance, and strategic projects—building value through actionable insights and delivery excellence.</p>
+      </section>
+      <section class="footer__col">
+        <h4 class="footer__title">Links</h4>
+        <ul class="footer__list">
+          <li><a class="footer__link" href="index">Home</a></li>
+          <li><a class="footer__link" href="services">Services</a></li>
+          <li><a class="footer__link" href="portfolio-jobs">Portfolio</a></li>
+          <li><a class="footer__link" href="about">About</a></li>
+          <li><a class="footer__link" href="contact">Contact</a></li>
+        </ul>
+      </section>
+      <section class="footer__col">
+        <h4 class="footer__title">Action</h4>
+        <p><button class="btn btn--primary" id="apply-btn" type="button">Work With Us</button></p>
+        <small>© <span id="year"></span> Glondia Analysts &amp; Consultancy</small>
+      </section>
+    </div>
+  </footer>
+
+  <script src="site.js" defer></script>
+</body>
+</html>
