@@ -5,3 +5,4 @@ data/
 .codex-server.err
 .env
 legacy/
+.npm-cache/
