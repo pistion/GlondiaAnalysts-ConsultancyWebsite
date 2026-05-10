@@ -10,7 +10,7 @@
   },
   "type": "module",
   "engines": {
-    "node": ">=20"
+    "node": "22.x"
   },
   "dependencies": {
     "better-sqlite3": "^12.4.1",
