@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Services &ndash; Glondia</title>
+  <link rel="stylesheet" href="site.css" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body id="page--services" class="page">
+  <header id="site-header" class="site-header" role="banner">
+    <div class="container header__inner">
+      <a class="brand" id="brand" href="index" aria-label="Glondia home">
+        <img class="brand__logo" src="imgs/logo.png" alt="Glondia logo" />
+        <span class="brand__name">Glondia</span>
+      </a>
+
+      <nav id="primary-nav" class="nav" aria-label="Primary">
+        <a class="nav__link" href="index">Home</a>
+        <a class="nav__link" href="portfolio">Portfolio</a>
+        <div class="nav__item nav__item--has-menu">
+          <a class="nav__link" href="publications">Publications</a>
+          <div class="nav__dropdown" aria-label="Publications categories">
+            <a class="nav__dropdown-link" href="publications/articles">Articles</a>
+            <a class="nav__dropdown-link" href="publications#reports">Reports</a>
+            <a class="nav__dropdown-link" href="publications#research">Research</a>
+          </div>
+        </div>
+        <a class="nav__link" href="services">Services</a>
+        <a class="nav__link" href="Consultants">Consultants</a>
+        <a class="nav__link" href="contact">Contact</a>
+        <a class="nav__link" href="about">About</a>
+      </nav>
+
+      <button id="hamburger" class="hamburger" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="mobile-menu" role="dialog" aria-label="Mobile Menu">
+      <a href="index" class="mobile-menu__link"><i class="fas fa-home"></i> Home</a>
+      <a href="portfolio" class="mobile-menu__link"><i class="fas fa-briefcase"></i> Portfolio</a>
+      <div class="mobile-menu__group mobile-menu__group--has-submenu">
+        <div class="mobile-menu__group-head">
+          <a href="publications" class="mobile-menu__link mobile-menu__link--parent"><i class="fas fa-newspaper"></i> Publications</a>
+          <button class="mobile-menu__toggle" type="button" aria-label="Open Publications menu" aria-expanded="false" aria-controls="mobile-publications-submenu">
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+        </div>
+        <div id="mobile-publications-submenu" class="mobile-menu__submenu" aria-hidden="true">
+          <a href="publications/articles" class="mobile-menu__link mobile-menu__link--sub"><i class="fas fa-file-lines"></i> Articles</a>
+          <a href="publications#reports" class="mobile-menu__link mobile-menu__link--sub"><i class="fas fa-chart-column"></i> Reports</a>
+          <a href="publications#research" class="mobile-menu__link mobile-menu__link--sub"><i class="fas fa-book-open"></i> Research</a>
+        </div>
+      </div>
+      <a href="services" class="mobile-menu__link"><i class="fas fa-cogs"></i> Services</a>
+      <a href="Consultants" class="mobile-menu__link"><i class="fas fa-users"></i> Consultants</a>
+      <a href="contact" class="mobile-menu__link"><i class="fas fa-envelope"></i> Contact</a>
+      <a href="about" class="mobile-menu__link"><i class="fas fa-info-circle"></i> About</a>
+    </div>
+  </header>
+
+  <main id="content" class="content" tabindex="-1">
+    <section id="services" class="section services-hero">
+      <div class="container">
+        <div class="services-hero__shell">
+          <div class="services-hero__grid">
+            <div class="services-hero__content">
+              <p class="services-hero__eyebrow">Glondia Service Lines</p>
+              <h1 class="section__title services-hero__title">Business support across systems, people, reporting, strategy, and digital build.</h1>
+              <p class="section__intro services-hero__intro">
+                Glondia provides IT support, analytics, HR services, reporting, consultations, AI pipeline development,
+                legal advisory support, and accounting &amp; bookkeeping for organisations that need cleaner execution and
+                sharper decision-making.
+              </p>
+
+              <div class="services-hero__actions">
+                <a class="btn btn--primary" href="contact">Book a Consultation</a>
+                <a class="btn btn--ghost" href="portfolio">See Our Work</a>
+              </div>
+
+              <div class="services-hero__chips" aria-label="Service highlights">
+                <span class="services-chip">IT &amp; Systems</span>
+                <span class="services-chip">Analytics</span>
+                <span class="services-chip">HR Support</span>
+                <span class="services-chip">Reporting</span>
+                <span class="services-chip">Strategy</span>
+                <span class="services-chip">AI Pipelines</span>
+                <span class="services-chip">Legal Advisory</span>
+                <span class="services-chip">Accounting &amp; Bookkeeping</span>
+              </div>
+            </div>
+
+            <div class="services-hero__media" aria-hidden="true">
+              <span class="services-hero__photo services-hero__photo--team"></span>
+              <span class="services-hero__photo services-hero__photo--analytics"></span>
+              <span class="services-hero__photo services-hero__photo--finance"></span>
+              <span class="services-hero__photo services-hero__photo--coding"></span>
+              <article class="services-hero__note">
+                <strong>Integrated delivery</strong>
+                <span>From management reports and people operations to automation pipelines and finance workflows.</span>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services-showcase">
+      <div class="container">
+        <div class="services-section-head">
+          <p class="services-section-head__eyebrow">What clients use us for</p>
+          <h2 class="section__title">A cleaner mix of advisory, operations support, and digital capability.</h2>
+          <p class="section__intro">We combine practical delivery with analysis so businesses can move from scattered tasks to well-supported execution.</p>
+        </div>
+
+        <div class="services-showcase__grid">
+          <article class="services-showcase-card services-showcase-card--insight">
+            <p class="services-showcase-card__eyebrow">Insight &amp; reporting</p>
+            <h3>Dashboards, reporting packs, and analytics that make performance easier to read.</h3>
+          </article>
+
+          <article class="services-showcase-card services-showcase-card--operations">
+            <p class="services-showcase-card__eyebrow">People &amp; operations</p>
+            <h3>HR support, consultations, and internal structure for growing teams and evolving businesses.</h3>
+          </article>
+
+          <article class="services-showcase-card services-showcase-card--delivery">
+            <p class="services-showcase-card__eyebrow">Digital build</p>
+            <h3>IT support and AI pipeline development that turns ideas into usable internal workflows.</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services-catalog">
+      <div class="container">
+        <div class="services-section-head">
+          <p class="services-section-head__eyebrow">Core Services</p>
+          <h2 class="section__title">Where we support clients most often.</h2>
+          <p class="section__intro">Every engagement can be scoped as a one-off project, recurring support function, or implementation partnership.</p>
+        </div>
+
+        <div class="services-catalog__grid">
+          <article class="service-panel service-panel--it">
+            <div class="service-panel__media" aria-hidden="true"></div>
+            <div class="service-panel__meta">
+              <span class="service-panel__index">01</span>
+              <span class="service-panel__icon"><i class="fa-solid fa-server"></i></span>
+            </div>
+            <h3 class="service-panel__title">IT &amp; systems support</h3>
+            <p class="service-panel__copy">Set up, improve, and stabilize the digital tools your team relies on every day.</p>
+            <ul class="service-panel__list">
+              <li>Tool setup, audits, and workflow configuration</li>
+              <li>Systems integration and digital operations support</li>
+              <li>Documentation, process handover, and troubleshooting guidance</li>
+            </ul>
+          </article>
+
+          <article class="service-panel service-panel--analytics">
+            <div class="service-panel__media" aria-hidden="true"></div>
+            <div class="service-panel__meta">
+              <span class="service-panel__index">02</span>
+              <span class="service-panel__icon"><i class="fa-solid fa-chart-line"></i></span>
+            </div>
+            <h3 class="service-panel__title">Analytics &amp; insight</h3>
+            <p class="service-panel__copy">Turn raw business data into trends, signals, and evidence you can actually use.</p>
+            <ul class="service-panel__list">
+              <li>Data cleaning, structuring, and exploratory analysis</li>
+              <li>KPI dashboards, trend reviews, and performance reporting</li>
+              <li>Research support, forecasting, and decision insight</li>
+            </ul>
+          </article>
+
+          <article class="service-panel service-panel--hr">
+            <div class="service-panel__media" aria-hidden="true"></div>
+            <div class="service-panel__meta">
+              <span class="service-panel__index">03</span>
+              <span class="service-panel__icon"><i class="fa-solid fa-people-group"></i></span>
+            </div>
+            <h3 class="service-panel__title">HR &amp; people operations</h3>
+            <p class="service-panel__copy">Build stronger internal structure across hiring, policies, performance, and day-to-day people support.</p>
+            <ul class="service-panel__list">
+              <li>Recruitment, onboarding, and role clarity support</li>
+              <li>Policy drafting, employee relations, and people workflows</li>
+              <li>Performance frameworks and workforce planning guidance</li>
+            </ul>
+          </article>
+
+          <article class="service-panel service-panel--reporting">
+            <div class="service-panel__media" aria-hidden="true"></div>
+            <div class="service-panel__meta">
+              <span class="service-panel__index">04</span>
+              <span class="service-panel__icon"><i class="fa-solid fa-file-lines"></i></span>
+            </div>
+            <h3 class="service-panel__title">Reporting &amp; decision support</h3>
+            <p class="service-panel__copy">Produce clear internal and client-facing reports that combine numbers with useful narrative.</p>
+            <ul class="service-panel__list">
+              <li>Management, board, and investor-ready reporting packs</li>
+              <li>Recurring reporting cycles and monthly performance summaries</li>
+              <li>Recommendations, commentary, and action planning support</li>
+            </ul>
+          </article>
+
+          <article class="service-panel service-panel--strategy">
+            <div class="service-panel__media" aria-hidden="true"></div>
+            <div class="service-panel__meta">
+              <span class="service-panel__index">05</span>
+              <span class="service-panel__icon"><i class="fa-solid fa-compass-drafting"></i></span>
+            </div>
+            <h3 class="service-panel__title">Consultations &amp; strategy</h3>
+            <p class="service-panel__copy">Get structured thinking around growth, positioning, operations, and where the business should move next.</p>
+            <ul class="service-panel__list">
+              <li>Business strategy sessions and leadership consultations</li>
+              <li>Market, competitor, and scenario analysis</li>
+              <li>Implementation roadmaps and decision workshops</li>
+            </ul>
+          </article>
+
+          <article class="service-panel service-panel--ai">
+            <div class="service-panel__media" aria-hidden="true"></div>
+            <div class="service-panel__meta">
+              <span class="service-panel__index">06</span>
+              <span class="service-panel__icon"><i class="fa-solid fa-robot"></i></span>
+            </div>
+            <h3 class="service-panel__title">AI pipeline development</h3>
+            <p class="service-panel__copy">Design AI-assisted workflows that connect prompts, approvals, systems, and output delivery.</p>
+            <ul class="service-panel__list">
+              <li>Automation mapping and assistant workflow design</li>
+              <li>Internal AI tools, prompt systems, and API orchestration</li>
+              <li>Deployment support, testing, and usage handover</li>
+            </ul>
+          </article>
+
+          <article class="service-panel service-panel--legal">
+            <div class="service-panel__media" aria-hidden="true"></div>
+            <div class="service-panel__meta">
+              <span class="service-panel__index">07</span>
+              <span class="service-panel__icon"><i class="fa-solid fa-scale-balanced"></i></span>
+            </div>
+            <h3 class="service-panel__title">Legal advisory support</h3>
+            <p class="service-panel__copy">Support business compliance, documentation, and practical legal coordination as part of broader operations work.</p>
+            <ul class="service-panel__list">
+              <li>Compliance preparation, policy alignment, and document support</li>
+              <li>Contract and obligation coordination for business processes</li>
+              <li>Advisory input around business risk and documentation readiness</li>
+            </ul>
+          </article>
+
+          <article class="service-panel service-panel--accounting">
+            <div class="service-panel__media" aria-hidden="true"></div>
+            <div class="service-panel__meta">
+              <span class="service-panel__index">08</span>
+              <span class="service-panel__icon"><i class="fa-solid fa-calculator"></i></span>
+            </div>
+            <h3 class="service-panel__title">Accounting &amp; bookkeeping</h3>
+            <p class="service-panel__copy">Keep the financial side of the business structured, current, and easier to manage month to month.</p>
+            <ul class="service-panel__list">
+              <li>Bookkeeping, reconciliations, and transaction record management</li>
+              <li>Cashflow tracking, budget support, and monthly reporting</li>
+              <li>Payroll preparation support and finance admin coordination</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services-models">
+      <div class="container">
+        <div class="services-section-head">
+          <p class="services-section-head__eyebrow">How We Engage</p>
+          <h2 class="section__title">Flexible support depending on what your business needs.</h2>
+        </div>
+
+        <div class="services-models__grid">
+          <article class="services-model card">
+            <h3>Project delivery</h3>
+            <p>Best for scoped work like dashboard builds, reporting packs, HR setup, bookkeeping cleanup, or AI workflow implementation.</p>
+          </article>
+
+          <article class="services-model card">
+            <h3>Ongoing advisory</h3>
+            <p>Useful when you need recurring reporting, operational guidance, strategy support, or an external partner across several business functions.</p>
+          </article>
+
+          <article class="services-model card">
+            <h3>Implementation + handover</h3>
+            <p>For teams that need a system or workflow built, documented, explained, and transitioned into day-to-day use.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services-cta">
+      <div class="container">
+        <div class="services-cta__card">
+          <div>
+            <p class="services-section-head__eyebrow">Next Step</p>
+            <h2 class="section__title">Tell us which function needs the most support right now.</h2>
+            <p class="section__intro">Whether you need cleaner reporting, stronger HR structure, help with systems, or an AI pipeline built properly, we can shape the right scope with you.</p>
+          </div>
+
+          <div class="services-cta__actions">
+            <a class="btn btn--primary" href="contact">Start a Conversation</a>
+            <a class="btn btn--ghost" href="about">About Glondia</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer">
+    <div class="container footer__grid">
+      <section class="footer__col">
+        <h4 class="footer__title">Glondia</h4>
+        <p class="footer__text">We partner with SMEs through analytics, economics, finance, and strategy so better decisions lead to stronger growth.</p>
+      </section>
+      <section class="footer__col">
+        <h4 class="footer__title">Quick Links</h4>
+        <ul class="footer__list">
+          <li><a class="footer__link" href="index">Home</a></li>
+          <li><a class="footer__link" href="services">Services</a></li>
+          <li><a class="footer__link" href="publications">Publications</a></li>
+          <li><a class="footer__link" href="portfolio">Portfolio</a></li>
+          <li><a class="footer__link" href="contact">Contact</a></li>
+        </ul>
+      </section>
+      <section class="footer__col">
+        <h4 class="footer__title">Next Step</h4>
+        <p><button class="btn btn--primary" id="apply-btn" type="button">Apply Now</button></p>
+        <small>&copy; <span id="year"></span> Glondia Analysts &amp; Consultancy</small>
+      </section>
+    </div>
+  </footer>
+
+  <script src="site.js" defer></script>
+</body>
+</html>

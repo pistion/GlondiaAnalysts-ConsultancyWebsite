@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Glondia Analysts and Consultancy helps growing businesses with analytics, economics, finance, human resource support, and practical strategy."
+  />
+  <title>Glondia Analysts &amp; Consultancy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="site.css" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZG1FDQFY87"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-ZG1FDQFY87');
+  </script>
+</head>
+
+<body id="page--home" class="page">
+  <header id="site-header" class="site-header" role="banner">
+    <div class="container header__inner">
+      <a class="brand" id="brand" href="index" aria-label="Glondia home">
+        <img class="brand__logo" src="imgs/logo.png" alt="Glondia logo" />
+        <span class="brand__name">Glondia</span>
+      </a>
+
+      <nav id="primary-nav" class="nav" aria-label="Primary">
+        <a class="nav__link" href="index" data-nav="home">Home</a>
+        <a class="nav__link" href="portfolio" data-nav="portfolio">Portfolio</a>
+        <div class="nav__item nav__item--has-menu">
+          <a class="nav__link" href="publications" data-nav="publications">Publications</a>
+          <div class="nav__dropdown" aria-label="Publications categories">
+            <a class="nav__dropdown-link" href="publications/articles">Articles</a>
+            <a class="nav__dropdown-link" href="publications#reports">Reports</a>
+            <a class="nav__dropdown-link" href="publications#research">Research</a>
+          </div>
+        </div>
+        <a class="nav__link" href="services" data-nav="services">Services</a>
+        <a class="nav__link" href="Consultants" data-nav="consultants">Consultants</a>
+        <a class="nav__link" href="contact" data-nav="contact">Contact</a>
+        <a class="nav__link" href="about" data-nav="about">About</a>
+      </nav>
+
+      <button id="hamburger" class="hamburger" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="mobile-menu" role="dialog" aria-label="Mobile Menu">
+      <a href="index" class="mobile-menu__link"><i class="fas fa-home"></i> Home</a>
+      <a href="portfolio" class="mobile-menu__link"><i class="fas fa-briefcase"></i> Portfolio</a>
+      <div class="mobile-menu__group mobile-menu__group--has-submenu">
+        <div class="mobile-menu__group-head">
+          <a href="publications" class="mobile-menu__link mobile-menu__link--parent"><i class="fas fa-newspaper"></i> Publications</a>
+          <button class="mobile-menu__toggle" type="button" aria-label="Open Publications menu" aria-expanded="false" aria-controls="mobile-publications-submenu">
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+        </div>
+        <div id="mobile-publications-submenu" class="mobile-menu__submenu" aria-hidden="true">
+          <a href="publications/articles" class="mobile-menu__link mobile-menu__link--sub"><i class="fas fa-file-lines"></i> Articles</a>
+          <a href="publications#reports" class="mobile-menu__link mobile-menu__link--sub"><i class="fas fa-chart-column"></i> Reports</a>
+          <a href="publications#research" class="mobile-menu__link mobile-menu__link--sub"><i class="fas fa-book-open"></i> Research</a>
+        </div>
+      </div>
+      <a href="services" class="mobile-menu__link"><i class="fas fa-cogs"></i> Services</a>
+      <a href="Consultants" class="mobile-menu__link"><i class="fas fa-users"></i> Consultants</a>
+      <a href="contact" class="mobile-menu__link"><i class="fas fa-envelope"></i> Contact</a>
+      <a href="about" class="mobile-menu__link"><i class="fas fa-info-circle"></i> About</a>
+    </div>
+  </header>
+
+  <main id="content" class="content content--home" tabindex="-1">
+    <section id="home" class="home-hero">
+      <div class="home-hero__backdrop" aria-hidden="true">
+        <span class="home-hero__glow home-hero__glow--left"></span>
+        <span class="home-hero__glow home-hero__glow--right"></span>
+      </div>
+
+      <div class="home-hero__media-wall" aria-hidden="true">
+        <video
+          class="home-hero__video"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="auto"
+          poster="https://images.pexels.com/videos/31883946/pexels-photo-31883946.jpeg?auto=compress&cs=tinysrgb&w=1600"
+        >
+          <source src="https://www.pexels.com/download/video/31883946/" type="video/mp4" />
+        </video>
+      </div>
+
+      <div class="container home-hero__grid">
+        <div class="home-hero__content">
+          <p class="home-eyebrow">Glondia Analysts &amp; Consultancy</p>
+          <h1 class="home-hero__title">Business intelligence for growing SMEs in Papua New Guinea.</h1>
+          <p class="home-hero__lead">
+            Systems, analytics, reporting, and strategy support for businesses that need cleaner execution and sharper decisions.
+          </p>
+
+          <div class="home-hero__actions">
+            <a class="btn btn--primary home-btn" href="services">Explore Services</a>
+            <a class="btn btn--ghost home-btn" href="contact">Book a Consultation</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="home-section">
+      <div class="container">
+        <div class="home-section__header">
+          <div>
+            <p class="home-section__eyebrow">Service areas</p>
+            <h2 class="home-section__title">A modern advisory partner across the numbers, narrative, and next move.</h2>
+            <p class="home-section__copy">
+              The homepage now carries a more atmospheric field note as well: coastal movement, human presence,
+              and clearer framing around the questions businesses bring to Glondia.
+            </p>
+          </div>
+          <div class="home-section__aside">
+            <span class="home-section__visual" aria-hidden="true"></span>
+            <a class="home-section__link" href="services">See full services <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="home-service-grid">
+          <article class="home-service-card home-service-card--data">
+            <div class="home-service-card__content">
+              <h3>Data &amp; insight</h3>
+              <p>From collection and cleaning through visualization, Glondia helps businesses understand the story inside their data.</p>
+            </div>
+          </article>
+
+          <article class="home-service-card home-service-card--economics">
+            <div class="home-service-card__content">
+              <h3>Economics &amp; research</h3>
+              <p>Market analysis, forecasting, and evidence-led thinking for businesses making strategic moves.</p>
+            </div>
+          </article>
+
+          <article class="home-service-card home-service-card--finance">
+            <div class="home-service-card__content">
+              <h3>Finance &amp; planning</h3>
+              <p>Budgeting, performance analysis, investment thinking, and financial reviews that support confident decisions.</p>
+            </div>
+          </article>
+
+          <article class="home-service-card home-service-card--hr">
+            <div class="home-service-card__content">
+              <h3>HR &amp; business support</h3>
+              <p>Operational guidance and people-focused support to help growing teams build better internal structure.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-section home-section--cta">
+      <div class="container">
+        <div class="home-cta">
+          <div class="home-cta__content">
+            <p class="home-section__eyebrow">Start the conversation</p>
+            <h2 class="home-cta__title">Tell us where your business needs clarity next.</h2>
+            <p class="home-cta__copy">
+              If you need stronger analysis, a clearer plan, or more operational support, Glondia can help shape the next step.
+            </p>
+          </div>
+
+          <div class="home-cta__actions">
+            <a class="btn btn--primary home-btn" href="contact">Contact Us</a>
+            <a class="btn btn--ghost home-btn home-btn--light" href="apply">Apply Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer">
+    <div class="container footer__grid">
+      <section class="footer__col">
+        <h4 class="footer__title">Glondia</h4>
+        <p class="footer__text">
+          We partner with SMEs through analytics, economics, finance, and strategy so better decisions lead to stronger growth.
+        </p>
+      </section>
+
+      <section class="footer__col">
+        <h4 class="footer__title">Quick Links</h4>
+        <ul class="footer__list">
+          <li><a class="footer__link" href="index">Home</a></li>
+          <li><a class="footer__link" href="services">Services</a></li>
+          <li><a class="footer__link" href="publications">Publications</a></li>
+          <li><a class="footer__link" href="portfolio">Portfolio</a></li>
+          <li><a class="footer__link" href="contact">Contact</a></li>
+        </ul>
+      </section>
+
+      <section class="footer__col">
+        <h4 class="footer__title">Next Step</h4>
+        <p><a href="apply" class="btn btn--primary" id="apply-btn">Apply Now</a></p>
+        <small>&copy; <span id="year"></span> Glondia Analysts &amp; Consultancy</small>
+      </section>
+    </div>
+  </footer>
+
+  <script src="site.js" defer></script>
+</body>
+</html>

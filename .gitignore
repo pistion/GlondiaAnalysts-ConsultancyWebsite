@@ -1,0 +1,7 @@
+node_modules
+website_data.sqlite
+data/
+.codex-server.log
+.codex-server.err
+.env
+legacy/

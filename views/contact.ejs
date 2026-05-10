@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact &ndash; Glondia</title>
+  <link rel="stylesheet" href="site.css" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body id="page--contact" class="page">
+  <header id="site-header" class="site-header" role="banner">
+    <div class="container header__inner">
+      <a class="brand" href="index" aria-label="Glondia home">
+        <img class="brand__logo" src="imgs/logo.png" alt="Glondia logo" />
+        <span class="brand__name">Glondia</span>
+      </a>
+
+      <nav id="primary-nav" class="nav" aria-label="Primary">
+        <a class="nav__link" href="index">Home</a>
+        <a class="nav__link" href="portfolio">Portfolio</a>
+        <div class="nav__item nav__item--has-menu">
+          <a class="nav__link" href="publications">Publications</a>
+          <div class="nav__dropdown" aria-label="Publications categories">
+            <a class="nav__dropdown-link" href="publications/articles">Articles</a>
+            <a class="nav__dropdown-link" href="publications#reports">Reports</a>
+            <a class="nav__dropdown-link" href="publications#research">Research</a>
+          </div>
+        </div>
+        <a class="nav__link" href="services">Services</a>
+        <a class="nav__link" href="Consultants">Consultants</a>
+        <a class="nav__link" href="contact">Contact</a>
+        <a class="nav__link" href="about">About</a>
+      </nav>
+
+      <button id="hamburger" class="hamburger" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="mobile-menu" role="dialog" aria-label="Mobile Menu">
+      <a href="index" class="mobile-menu__link"><i class="fas fa-home"></i> Home</a>
+      <a href="portfolio" class="mobile-menu__link"><i class="fas fa-briefcase"></i> Portfolio</a>
+      <div class="mobile-menu__group mobile-menu__group--has-submenu">
+        <div class="mobile-menu__group-head">
+          <a href="publications" class="mobile-menu__link mobile-menu__link--parent"><i class="fas fa-newspaper"></i> Publications</a>
+          <button class="mobile-menu__toggle" type="button" aria-label="Open Publications menu" aria-expanded="false" aria-controls="mobile-publications-submenu">
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+        </div>
+        <div id="mobile-publications-submenu" class="mobile-menu__submenu" aria-hidden="true">
+          <a href="publications/articles" class="mobile-menu__link mobile-menu__link--sub"><i class="fas fa-file-lines"></i> Articles</a>
+          <a href="publications#reports" class="mobile-menu__link mobile-menu__link--sub"><i class="fas fa-chart-column"></i> Reports</a>
+          <a href="publications#research" class="mobile-menu__link mobile-menu__link--sub"><i class="fas fa-book-open"></i> Research</a>
+        </div>
+      </div>
+      <a href="services" class="mobile-menu__link"><i class="fas fa-cogs"></i> Services</a>
+      <a href="Consultants" class="mobile-menu__link"><i class="fas fa-users"></i> Consultants</a>
+      <a href="contact" class="mobile-menu__link"><i class="fas fa-envelope"></i> Contact</a>
+      <a href="about" class="mobile-menu__link"><i class="fas fa-info-circle"></i> About</a>
+    </div>
+  </header>
+
+  <main id="content" class="content" tabindex="-1">
+    <section id="contact" class="section contact-hero">
+      <div class="container">
+        <div class="contact-hero__shell">
+          <div class="contact-hero__content">
+            <p class="contact-eyebrow">Talk to Glondia</p>
+            <h1 class="section__title contact-hero__title">A cleaner way to start the right conversation for your business.</h1>
+            <p class="section__intro contact-hero__intro">
+              Reach out to Glondia for analytics, reporting, HR support, IT, AI pipeline development,
+              strategy consultations, finance support, or broader business advisory work. Tell us what
+              you are trying to solve and we will help shape the best next step.
+            </p>
+
+            <div class="contact-hero__actions">
+              <a href="#contact-form" class="btn btn--primary">Send an Enquiry</a>
+              <a href="services" class="btn btn--ghost">Explore Services</a>
+            </div>
+
+            <div class="contact-hero__chips" aria-label="Contact highlights">
+              <span class="contact-chip">SME support</span>
+              <span class="contact-chip">Project scoping</span>
+              <span class="contact-chip">Remote-friendly</span>
+            </div>
+          </div>
+
+          <aside class="contact-hero__note">
+            <p class="contact-eyebrow">Best use of this page</p>
+            <h2 class="contact-hero__note-title">Good for first enquiries, project briefs, and support requests.</h2>
+            <ul class="contact-hero__list">
+              <li>Explain the challenge your business is facing.</li>
+              <li>Tell us which service area you are exploring.</li>
+              <li>Share any preferred timeline or next-step questions.</li>
+              <li>Use the quick sidebar for Roxanne, WhatsApp, Telegram, FaceTime, and sharing tools.</li>
+            </ul>
+          </aside>
+
+          <aside class="contact-rail" aria-label="Quick contact sidebar">
+            <a
+              class="contact-rail__link contact-rail__link--chat"
+              href="AI-Coming_soonPage#roxanne-chat-form"
+              aria-label="Open Roxanne chatbot"
+              data-label="Chatbot"
+            >
+              <i class="fa-solid fa-comments" aria-hidden="true"></i>
+              <span class="sr-only">Open Roxanne chatbot</span>
+            </a>
+
+            <a
+              class="contact-rail__link contact-rail__link--voice"
+              href="AI-Coming_soonPage?mode=voice#roxanne-chat-form"
+              aria-label="Open Roxanne voice support"
+              data-label="Roxanne Voice"
+            >
+              <i class="fa-solid fa-phone-volume" aria-hidden="true"></i>
+              <span class="sr-only">Open Roxanne voice support</span>
+            </a>
+
+            <a
+              class="contact-rail__link contact-rail__link--whatsapp"
+              href="https://wa.me/67578238214"
+              target="_blank"
+              rel="noopener"
+              aria-label="Contact Glondia on WhatsApp"
+              data-label="WhatsApp"
+            >
+              <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+              <span class="sr-only">Contact Glondia on WhatsApp</span>
+            </a>
+
+            <a
+              class="contact-rail__link contact-rail__link--telegram"
+              href="#"
+              target="_blank"
+              rel="noopener"
+              aria-label="Share or continue on Telegram"
+              data-label="Telegram"
+              data-share-network="telegram"
+            >
+              <i class="fa-brands fa-telegram" aria-hidden="true"></i>
+              <span class="sr-only">Share or continue on Telegram</span>
+            </a>
+
+            <a
+              class="contact-rail__link contact-rail__link--facetime"
+              href="facetime:+67578238214"
+              aria-label="Start a FaceTime call"
+              data-label="FaceTime"
+            >
+              <i class="fa-solid fa-video" aria-hidden="true"></i>
+              <span class="sr-only">Start a FaceTime call</span>
+            </a>
+
+            <a
+              class="contact-rail__link contact-rail__link--facebook"
+              href="#"
+              target="_blank"
+              rel="noopener"
+              aria-label="Share on Facebook"
+              data-label="Facebook"
+              data-share-network="facebook"
+            >
+              <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+              <span class="sr-only">Share on Facebook</span>
+            </a>
+
+            <a
+              class="contact-rail__link contact-rail__link--linkedin"
+              href="#"
+              target="_blank"
+              rel="noopener"
+              aria-label="Share on LinkedIn"
+              data-label="LinkedIn"
+              data-share-network="linkedin"
+            >
+              <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+              <span class="sr-only">Share on LinkedIn</span>
+            </a>
+
+            <a
+              class="contact-rail__link contact-rail__link--email"
+              href="mailto:glondia@outlook.com?subject=Glondia%20Enquiry"
+              aria-label="Send an email enquiry"
+              data-label="Email"
+            >
+              <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+              <span class="sr-only">Send an email enquiry</span>
+            </a>
+
+            <button
+              class="contact-rail__link contact-rail__link--share"
+              type="button"
+              aria-label="Share this page"
+              data-label="Share"
+              data-share-network="system"
+            >
+              <i class="fa-solid fa-share-nodes" aria-hidden="true"></i>
+              <span class="sr-only">Share this page</span>
+            </button>
+
+            <p id="contact-rail-status" class="contact-rail__status" aria-live="polite"></p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-form" class="section contact-main">
+      <div class="container">
+        <div class="contact-main__grid">
+          <aside class="contact-brief">
+            <p class="contact-eyebrow">How we work</p>
+            <h2 class="section__title contact-brief__title">A simple way to brief us before we respond.</h2>
+            <p class="section__intro contact-brief__intro">
+              A short, clear message helps us understand the type of support you need and how best to respond.
+            </p>
+
+            <div class="contact-brief__steps">
+              <article class="contact-step">
+                <span class="contact-step__number">01</span>
+                <div>
+                  <h3>Describe the need</h3>
+                  <p>Tell us whether this is about reporting, strategy, HR, operations, finance, IT, or AI support.</p>
+                </div>
+              </article>
+
+              <article class="contact-step">
+                <span class="contact-step__number">02</span>
+                <div>
+                  <h3>Add context</h3>
+                  <p>Share where your business is now, what is blocking progress, and any outcome you are aiming for.</p>
+                </div>
+              </article>
+
+              <article class="contact-step">
+                <span class="contact-step__number">03</span>
+                <div>
+                  <h3>Choose a next step</h3>
+                  <p>We can continue by email, WhatsApp, or move into a more structured consultation.</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="contact-brief__callout">
+              <p class="contact-brief__callout-title">Helpful examples</p>
+              <p class="contact-brief__callout-text">Project scoping, reporting needs, staffing support, consultation requests, AI pipeline ideas, and operational challenges.</p>
+            </div>
+          </aside>
+
+          <section class="message contact-form-card">
+            <div class="contact-form__header">
+              <p class="contact-eyebrow">Send an enquiry</p>
+              <h2 class="section__title">Start with a short brief</h2>
+              <p class="section__intro">Use the form below and Glondia will follow up from the right support angle.</p>
+            </div>
+
+            <form id="contactForm" class="message-form">
+              <div class="form-grid">
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name" placeholder="Enter your name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Your Email</label>
+                  <input type="email" id="email" name="email" placeholder="Enter your email" required />
+                </div>
+              </div>
+
+              <div class="form-grid">
+                <div class="form-group">
+                  <label for="company">Business or Organisation</label>
+                  <input type="text" id="company" name="company" placeholder="Optional" />
+                </div>
+                <div class="form-group">
+                  <label for="focusArea">Main Area of Interest</label>
+                  <select id="focusArea" name="focusArea">
+                    <option value="">Select a service area</option>
+                    <option value="analytics-reporting">Analytics &amp; Reporting</option>
+                    <option value="strategy-consultation">Strategy &amp; Consultation</option>
+                    <option value="hr-support">HR Support</option>
+                    <option value="it-systems">IT &amp; Systems</option>
+                    <option value="ai-pipeline-development">AI Pipeline Development</option>
+                    <option value="finance-accounting">Finance, Accounting &amp; Bookkeeping</option>
+                    <option value="legal-advisory">Legal Advisory Support</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message-text">Your Message</label>
+                <textarea id="message-text" name="message" rows="7" placeholder="Tell us what you need, the kind of support you are exploring, and any useful background..." required></textarea>
+              </div>
+
+              <div class="contact-form__actions">
+                <button type="submit" class="btn btn--primary">
+                  <i class="fa-solid fa-paper-plane"></i> Send Message
+                </button>
+                <p class="contact-form__hint">Prefer a direct email instead? Write to <a href="mailto:glondia@outlook.com">glondia@outlook.com</a>.</p>
+              </div>
+              <p id="contact-status" class="form-status" aria-live="polite"></p>
+            </form>
+          </section>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer">
+    <div class="container footer__grid">
+      <section class="footer__col">
+        <h4 class="footer__title">Glondia</h4>
+        <p class="footer__text">We partner with SMEs through analytics, economics, finance, and strategy so better decisions lead to stronger growth.</p>
+      </section>
+      <section class="footer__col">
+        <h4 class="footer__title">Quick Links</h4>
+        <ul class="footer__list">
+          <li><a class="footer__link" href="index">Home</a></li>
+          <li><a class="footer__link" href="services">Services</a></li>
+          <li><a class="footer__link" href="publications">Publications</a></li>
+          <li><a class="footer__link" href="portfolio">Portfolio</a></li>
+          <li><a class="footer__link" href="contact">Contact</a></li>
+        </ul>
+      </section>
+      <section class="footer__col">
+        <h4 class="footer__title">Next Step</h4>
+        <p><button class="btn btn--primary" id="apply-btn" type="button">Apply Now</button></p>
+        <small>&copy; <span id="year"></span> Glondia Analysts &amp; Consultancy</small>
+      </section>
+    </div>
+  </footer>
+
+  <script src="site.js" defer></script>
+</body>
+</html>

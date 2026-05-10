@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Apply for Services &ndash; Glondia</title>
+  <link rel="stylesheet" href="site.css" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body id="page--apply" class="page">
+  <header id="site-header" class="site-header" role="banner">
+    <div class="container header__inner">
+      <a class="brand" href="index" aria-label="Glondia home">
+        <img class="brand__logo" src="imgs/logo.png" alt="Glondia logo" />
+        <span class="brand__name">Glondia</span>
+      </a>
+
+      <nav id="primary-nav" class="nav" aria-label="Primary">
+        <a class="nav__link" href="index">Home</a>
+        <a class="nav__link" href="portfolio">Portfolio</a>
+        <div class="nav__item nav__item--has-menu">
+          <a class="nav__link" href="publications">Publications</a>
+          <div class="nav__dropdown" aria-label="Publications categories">
+            <a class="nav__dropdown-link" href="publications/articles">Articles</a>
+            <a class="nav__dropdown-link" href="publications#reports">Reports</a>
+            <a class="nav__dropdown-link" href="publications#research">Research</a>
+          </div>
+        </div>
+        <a class="nav__link" href="services">Services</a>
+        <a class="nav__link" href="Consultants">Consultants</a>
+        <a class="nav__link" href="contact">Contact</a>
+        <a class="nav__link" href="about">About</a>
+      </nav>
+
+      <button id="hamburger" class="hamburger" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="mobile-menu" role="dialog" aria-label="Mobile Menu">
+      <a href="index" class="mobile-menu__link"><i class="fas fa-home"></i> Home</a>
+      <a href="portfolio" class="mobile-menu__link"><i class="fas fa-briefcase"></i> Portfolio</a>
+      <div class="mobile-menu__group mobile-menu__group--has-submenu">
+        <div class="mobile-menu__group-head">
+          <a href="publications" class="mobile-menu__link mobile-menu__link--parent"><i class="fas fa-newspaper"></i> Publications</a>
+          <button class="mobile-menu__toggle" type="button" aria-label="Open Publications menu" aria-expanded="false" aria-controls="mobile-publications-submenu">
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+        </div>
+        <div id="mobile-publications-submenu" class="mobile-menu__submenu" aria-hidden="true">
+          <a href="publications/articles" class="mobile-menu__link mobile-menu__link--sub"><i class="fas fa-file-lines"></i> Articles</a>
+          <a href="publications#reports" class="mobile-menu__link mobile-menu__link--sub"><i class="fas fa-chart-column"></i> Reports</a>
+          <a href="publications#research" class="mobile-menu__link mobile-menu__link--sub"><i class="fas fa-book-open"></i> Research</a>
+        </div>
+      </div>
+      <a href="services" class="mobile-menu__link"><i class="fas fa-cogs"></i> Services</a>
+      <a href="Consultants" class="mobile-menu__link"><i class="fas fa-users"></i> Consultants</a>
+      <a href="contact" class="mobile-menu__link"><i class="fas fa-envelope"></i> Contact</a>
+      <a href="about" class="mobile-menu__link"><i class="fas fa-info-circle"></i> About</a>
+    </div>
+  </header>
+
+  <main id="content" class="content" tabindex="-1">
+    <section class="section apply">
+      <div class="container apply-shell">
+        <div class="card apply-card">
+          <h1 class="section__title">Apply for Services</h1>
+          <p class="section__intro">Tell us about your business and the support you need. We will review your request and follow up with the best next step.</p>
+
+          <form id="applyForm" class="message-form">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required />
+              </div>
+              <div class="form-group">
+                <label for="businessName">Business Name</label>
+                <input type="text" id="businessName" name="businessName" placeholder="Enter your business name" required />
+              </div>
+            </div>
+
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address" placeholder="Enter your address" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+            </div>
+
+            <div class="form-group">
+              <label for="serviceRequest">Request for Services</label>
+              <textarea id="serviceRequest" name="serviceRequest" rows="7" placeholder="Describe your needs or requested services..." required></textarea>
+            </div>
+
+            <div class="apply-actions">
+              <button type="submit" class="btn btn--primary">Submit Application</button>
+              <a href="services" class="btn btn--ghost">Review Services</a>
+            </div>
+            <p id="apply-status" class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer">
+    <div class="container footer__grid">
+      <section class="footer__col">
+        <h4 class="footer__title">Glondia</h4>
+        <p class="footer__text">We partner with SMEs through analytics, economics, finance, and strategy so better decisions lead to stronger growth.</p>
+      </section>
+      <section class="footer__col">
+        <h4 class="footer__title">Quick Links</h4>
+        <ul class="footer__list">
+          <li><a class="footer__link" href="index">Home</a></li>
+          <li><a class="footer__link" href="services">Services</a></li>
+          <li><a class="footer__link" href="publications">Publications</a></li>
+          <li><a class="footer__link" href="portfolio">Portfolio</a></li>
+          <li><a class="footer__link" href="contact">Contact</a></li>
+        </ul>
+      </section>
+      <section class="footer__col">
+        <h4 class="footer__title">Next Step</h4>
+        <p><a href="contact" class="btn btn--primary">Talk To Us</a></p>
+        <small>&copy; <span id="year"></span> Glondia Analysts &amp; Consultancy</small>
+      </section>
+    </div>
+  </footer>
+
+  <script src="site.js" defer></script>
+</body>
+</html>

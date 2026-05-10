@@ -1,0 +1,856 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v24.12.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\dpm\Desktop\GlondiaAnalysts-ConsultancyWebsite-main (1)\.npmrc
+5 silly config load:file:C:\Users\dpm\.npmrc
+6 silly config load:file:C:\Users\dpm\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:C:\Users\dpm\Desktop\GlondiaAnalysts-ConsultancyWebsite-main (1)\.npm-cache\_logs\2026-05-08T14_55_24_884Z-
+10 verbose logfile C:\Users\dpm\Desktop\GlondiaAnalysts-ConsultancyWebsite-main (1)\.npm-cache\_logs\2026-05-08T14_55_24_884Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly reify mark retired [
+14 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\accepts'
+14 silly reify ]
+15 silly reify mark retired [
+15 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\base64-js'
+15 silly reify ]
+16 silly reify mark retired [
+16 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\bl'
+16 silly reify ]
+17 silly reify mark retired [
+17 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\buffer'
+17 silly reify ]
+18 silly reify mark retired [
+18 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\bindings'
+18 silly reify ]
+19 silly reify mark retired [
+19 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\better-sqlite3'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\body-parser'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\bytes'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\content-disposition'
+22 silly reify ]
+23 silly reify mark retired [
+23 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\chownr'
+23 silly reify ]
+24 silly reify mark retired [
+24 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\call-bind-apply-helpers'
+24 silly reify ]
+25 silly reify mark retired [
+25 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\call-bound'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\content-type'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\cookie'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\decompress-response'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\cookie-signature'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\debug'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\cors'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\deep-extend'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\detect-libc'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\dunder-proto'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\depd'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\ee-first'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\es-define-property'
+37 silly reify ]
+38 silly reify mark retired [
+38 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\es-errors'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\es-object-atoms'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\end-of-stream'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\escape-html'
+41 silly reify ]
+42 silly reify mark retired [
+42 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\ejs'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\encodeurl'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\finalhandler'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\etag'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\expand-template'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\file-uri-to-path'
+47 silly reify ]
+48 silly reify mark retired [
+48 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\express'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\forwarded'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\fresh'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\get-intrinsic'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\fs-constants'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\function-bind'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\github-from-package'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\get-proto'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\gopd'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\iconv-lite'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\hasown'
+58 silly reify ]
+59 silly reify mark retired [
+59 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\inherits'
+59 silly reify ]
+60 silly reify mark retired [
+60 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\http-errors'
+60 silly reify ]
+61 silly reify mark retired [
+61 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\ini'
+61 silly reify ]
+62 silly reify mark retired [
+62 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\math-intrinsics'
+62 silly reify ]
+63 silly reify mark retired [
+63 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\ipaddr.js'
+63 silly reify ]
+64 silly reify mark retired [
+64 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\ieee754'
+64 silly reify ]
+65 silly reify mark retired [
+65 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\is-promise'
+65 silly reify ]
+66 silly reify mark retired [
+66 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\media-typer'
+66 silly reify ]
+67 silly reify mark retired [
+67 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\mime-types'
+67 silly reify ]
+68 silly reify mark retired [
+68 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\has-symbols'
+68 silly reify ]
+69 silly reify mark retired [
+69 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\mime-db'
+69 silly reify ]
+70 silly reify mark retired [
+70 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\merge-descriptors'
+70 silly reify ]
+71 silly reify mark retired [
+71 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\mimic-response'
+71 silly reify ]
+72 silly reify mark retired [
+72 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\napi-build-utils'
+72 silly reify ]
+73 silly reify mark retired [
+73 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\minimist'
+73 silly reify ]
+74 silly reify mark retired [
+74 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\mkdirp-classic'
+74 silly reify ]
+75 silly reify mark retired [
+75 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\ms'
+75 silly reify ]
+76 silly reify mark retired [
+76 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\negotiator'
+76 silly reify ]
+77 silly reify mark retired [
+77 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\object-inspect'
+77 silly reify ]
+78 silly reify mark retired [
+78 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\node-abi'
+78 silly reify ]
+79 silly reify mark retired [
+79 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\object-assign'
+79 silly reify ]
+80 silly reify mark retired [
+80 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\once'
+80 silly reify ]
+81 silly reify mark retired [
+81 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\on-finished'
+81 silly reify ]
+82 silly reify mark retired [
+82 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\parseurl'
+82 silly reify ]
+83 silly reify mark retired [
+83 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\path-to-regexp'
+83 silly reify ]
+84 silly reify mark retired [
+84 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\proxy-addr'
+84 silly reify ]
+85 silly reify mark retired [
+85 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\qs'
+85 silly reify ]
+86 silly reify mark retired [
+86 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\pump'
+86 silly reify ]
+87 silly reify mark retired [
+87 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\prebuild-install'
+87 silly reify ]
+88 silly reify mark retired [
+88 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\range-parser'
+88 silly reify ]
+89 silly reify mark retired [
+89 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\readable-stream'
+89 silly reify ]
+90 silly reify mark retired [
+90 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\raw-body'
+90 silly reify ]
+91 silly reify mark retired [
+91 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\rc'
+91 silly reify ]
+92 silly reify mark retired [
+92 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\router'
+92 silly reify ]
+93 silly reify mark retired [
+93 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\safe-buffer'
+93 silly reify ]
+94 silly reify mark retired [
+94 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\serve-static'
+94 silly reify ]
+95 silly reify mark retired [
+95 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\safer-buffer'
+95 silly reify ]
+96 silly reify mark retired [
+96 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\semver'
+96 silly reify ]
+97 silly reify mark retired [
+97 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\setprototypeof'
+97 silly reify ]
+98 silly reify mark retired [
+98 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\send'
+98 silly reify ]
+99 silly reify mark retired [
+99 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\side-channel-map'
+99 silly reify ]
+100 silly reify mark retired [
+100 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\side-channel'
+100 silly reify ]
+101 silly reify mark retired [
+101 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\side-channel-list'
+101 silly reify ]
+102 silly reify mark retired [
+102 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\simple-concat'
+102 silly reify ]
+103 silly reify mark retired [
+103 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\side-channel-weakmap'
+103 silly reify ]
+104 silly reify mark retired [
+104 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\string_decoder'
+104 silly reify ]
+105 silly reify mark retired [
+105 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\simple-get'
+105 silly reify ]
+106 silly reify mark retired [
+106 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\tar-fs'
+106 silly reify ]
+107 silly reify mark retired [
+107 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\statuses'
+107 silly reify ]
+108 silly reify mark retired [
+108 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\strip-json-comments'
+108 silly reify ]
+109 silly reify mark retired [
+109 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\toidentifier'
+109 silly reify ]
+110 silly reify mark retired [
+110 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\tunnel-agent'
+110 silly reify ]
+111 silly reify mark retired [
+111 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\tar-stream'
+111 silly reify ]
+112 silly reify mark retired [
+112 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\type-is'
+112 silly reify ]
+113 silly reify mark retired [
+113 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\vary'
+113 silly reify ]
+114 silly reify mark retired [
+114 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\util-deprecate'
+114 silly reify ]
+115 silly reify mark retired [
+115 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\unpipe'
+115 silly reify ]
+116 silly reify mark retired [
+116 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\wrappy'
+116 silly reify ]
+117 silly reify moves {
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\accepts': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.accepts-pItX9zd7',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\base64-js': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.base64-js-JmDjx3CZ',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\bl': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.bl-4vzlCiEw',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\buffer': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.buffer-BWo5sSNc',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\bindings': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.bindings-1wNOQTrJ',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\better-sqlite3': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.better-sqlite3-GIbfhTVP',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\body-parser': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.body-parser-M94hZWo6',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\bytes': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.bytes-ycTG2pj3',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\content-disposition': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.content-disposition-WnNcasml',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\chownr': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.chownr-2jzVbUsh',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\call-bind-apply-helpers': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.call-bind-apply-helpers-cN5ezfqs',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\call-bound': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.call-bound-6TmZOCig',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\content-type': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.content-type-qZIKA7hl',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\cookie': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.cookie-UBnrGnAu',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\decompress-response': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.decompress-response-IY8zBpeI',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\cookie-signature': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.cookie-signature-Q3Fd24oA',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\debug': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.debug-jJ8SdIb5',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\cors': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.cors-8MSw3AbD',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\deep-extend': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.deep-extend-FnincQJM',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\detect-libc': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.detect-libc-9Y6m8M6Y',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\dunder-proto': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.dunder-proto-LPhh3XTa',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\depd': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.depd-JC53gtLd',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\ee-first': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.ee-first-lpoQkeFI',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\es-define-property': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.es-define-property-e0PF1dhj',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\es-errors': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.es-errors-RCSaFSKZ',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\es-object-atoms': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.es-object-atoms-hbELduKr',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\end-of-stream': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.end-of-stream-NYog5FrC',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\escape-html': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.escape-html-9SSECXv3',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\ejs': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.ejs-dF3tgd9y',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\encodeurl': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.encodeurl-UMiGDmhl',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\finalhandler': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.finalhandler-5OchpjVo',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\etag': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.etag-xlCKDi6E',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\expand-template': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.expand-template-rr09cOBk',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\file-uri-to-path': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.file-uri-to-path-5c9cYmXp',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\express': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.express-ttgAGhoL',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\forwarded': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.forwarded-9OzMohg4',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\fresh': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.fresh-6szb6k2y',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\get-intrinsic': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.get-intrinsic-J8VPfc22',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\fs-constants': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.fs-constants-GYolAb6W',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\function-bind': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.function-bind-R0ZQFUaK',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\github-from-package': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.github-from-package-Z5Ncd9h6',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\get-proto': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.get-proto-eatYHX70',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\gopd': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.gopd-GD6dzRfl',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\iconv-lite': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.iconv-lite-0z4r4ihL',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\hasown': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.hasown-hvIfAGbZ',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\inherits': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.inherits-jwMcVxLo',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\http-errors': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.http-errors-B6KSGwGS',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\ini': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.ini-4bRW1WNg',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\math-intrinsics': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.math-intrinsics-IDqLEnUB',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\ipaddr.js': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.ipaddr.js-OgsIq9ku',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\ieee754': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.ieee754-CfmsJHxF',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\is-promise': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.is-promise-3MlDvBep',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\media-typer': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.media-typer-rmVilpBS',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\mime-types': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.mime-types-hfONWxbF',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\has-symbols': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.has-symbols-1Pltz7Sv',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\mime-db': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.mime-db-u0PbQJXJ',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\merge-descriptors': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.merge-descriptors-6XgJIARJ',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\mimic-response': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.mimic-response-8AaBNJyi',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\napi-build-utils': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.napi-build-utils-jUBGpkTX',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\minimist': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.minimist-jDqwMguu',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\mkdirp-classic': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.mkdirp-classic-ywipIbqJ',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\ms': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.ms-cf836Q95',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\negotiator': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.negotiator-B4GiM86h',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\object-inspect': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.object-inspect-eflqWXXL',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\node-abi': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.node-abi-QgwHyn5p',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\object-assign': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.object-assign-ZYTHYvx0',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\once': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.once-o8kUcUfb',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\on-finished': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.on-finished-ITliIMY9',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\parseurl': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.parseurl-PeXg6Iiw',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\path-to-regexp': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.path-to-regexp-9FbS4jON',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\proxy-addr': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.proxy-addr-XDxXUt1D',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\qs': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.qs-URAqe0R6',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\pump': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.pump-KUFb7i62',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\prebuild-install': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.prebuild-install-BvLFmtKD',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\range-parser': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.range-parser-odH44LJF',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\readable-stream': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.readable-stream-9BatyCHl',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\raw-body': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.raw-body-eEYhywEe',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\rc': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.rc-SvLe53mQ',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\router': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.router-Uegj1SKI',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\safe-buffer': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.safe-buffer-415bZaSH',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\serve-static': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.serve-static-E9T0Tw0m',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\safer-buffer': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.safer-buffer-EbNDgmkm',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\semver': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.semver-iNmWROUK',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\setprototypeof': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.setprototypeof-f1UGW3jm',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\send': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.send-8q1QKpyX',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\side-channel-map': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.side-channel-map-2wwrR72P',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\side-channel': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.side-channel-fkFvYvux',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\side-channel-list': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.side-channel-list-K4OgBirr',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\simple-concat': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.simple-concat-81IDwRRk',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\side-channel-weakmap': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.side-channel-weakmap-prhm6QVb',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\string_decoder': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.string_decoder-7gHlgqsw',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\simple-get': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.simple-get-Hw6a5Akl',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\tar-fs': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.tar-fs-67icK8sz',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\statuses': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.statuses-pyOcnoFi',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\strip-json-comments': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.strip-json-comments-k9KfQexv',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\toidentifier': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.toidentifier-Lsr2FLsn',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\tunnel-agent': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.tunnel-agent-zaLjfJs2',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\tar-stream': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.tar-stream-XsUlRUvV',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\type-is': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.type-is-CTzkEfJ6',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\vary': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.vary-v96irRZ6',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\util-deprecate': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.util-deprecate-jKIXKl13',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\unpipe': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.unpipe-UKwNrFAl',
+117 silly reify   'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\wrappy': 'C:\\Users\\dpm\\Desktop\\GlondiaAnalysts-ConsultancyWebsite-main (1)\\node_modules\\.wrappy-LDGdhj2D'
+117 silly reify }
+118 http cache unpipe@https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz 1ms (cache hit)
+119 http cache wrappy@https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz 0ms (cache hit)
+120 http cache vary@https://registry.npmjs.org/vary/-/vary-1.1.2.tgz 0ms (cache hit)
+121 http cache util-deprecate@https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz 0ms (cache hit)
+122 http cache type-is@https://registry.npmjs.org/type-is/-/type-is-2.0.1.tgz 0ms (cache hit)
+123 http cache tunnel-agent@https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.6.0.tgz 0ms (cache hit)
+124 http cache toidentifier@https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.1.tgz 0ms (cache hit)
+125 http cache tar-stream@https://registry.npmjs.org/tar-stream/-/tar-stream-2.2.0.tgz 0ms (cache hit)
+126 http cache strip-json-comments@https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-2.0.1.tgz 0ms (cache hit)
+127 http cache statuses@https://registry.npmjs.org/statuses/-/statuses-2.0.2.tgz 0ms (cache hit)
+128 http cache tar-fs@https://registry.npmjs.org/tar-fs/-/tar-fs-2.1.4.tgz 0ms (cache hit)
+129 http cache simple-get@https://registry.npmjs.org/simple-get/-/simple-get-4.0.1.tgz 0ms (cache hit)
+130 http cache side-channel-weakmap@https://registry.npmjs.org/side-channel-weakmap/-/side-channel-weakmap-1.0.2.tgz 0ms (cache hit)
+131 http cache string_decoder@https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz 0ms (cache hit)
+132 http cache side-channel-list@https://registry.npmjs.org/side-channel-list/-/side-channel-list-1.0.0.tgz 0ms (cache hit)
+133 http cache side-channel@https://registry.npmjs.org/side-channel/-/side-channel-1.1.0.tgz 0ms (cache hit)
+134 http cache simple-concat@https://registry.npmjs.org/simple-concat/-/simple-concat-1.0.1.tgz 0ms (cache hit)
+135 http cache side-channel-map@https://registry.npmjs.org/side-channel-map/-/side-channel-map-1.0.1.tgz 0ms (cache hit)
+136 http cache semver@https://registry.npmjs.org/semver/-/semver-7.7.3.tgz 0ms (cache hit)
+137 http cache safer-buffer@https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz 0ms (cache hit)
+138 http cache setprototypeof@https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz 0ms (cache hit)
+139 http cache safe-buffer@https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz 0ms (cache hit)
+140 http cache serve-static@https://registry.npmjs.org/serve-static/-/serve-static-2.2.0.tgz 0ms (cache hit)
+141 http cache router@https://registry.npmjs.org/router/-/router-2.2.0.tgz 0ms (cache hit)
+142 http cache send@https://registry.npmjs.org/send/-/send-1.2.0.tgz 0ms (cache hit)
+143 http cache rc@https://registry.npmjs.org/rc/-/rc-1.2.8.tgz 0ms (cache hit)
+144 http cache prebuild-install@https://registry.npmjs.org/prebuild-install/-/prebuild-install-7.1.3.tgz 0ms (cache hit)
+145 http cache readable-stream@https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz 0ms (cache hit)
+146 http cache range-parser@https://registry.npmjs.org/range-parser/-/range-parser-1.2.1.tgz 0ms (cache hit)
+147 http cache qs@https://registry.npmjs.org/qs/-/qs-6.14.0.tgz 0ms (cache hit)
+148 http cache pump@https://registry.npmjs.org/pump/-/pump-3.0.3.tgz 0ms (cache hit)
+149 http cache raw-body@https://registry.npmjs.org/raw-body/-/raw-body-3.0.1.tgz 0ms (cache hit)
+150 http cache proxy-addr@https://registry.npmjs.org/proxy-addr/-/proxy-addr-2.0.7.tgz 0ms (cache hit)
+151 http cache parseurl@https://registry.npmjs.org/parseurl/-/parseurl-1.3.3.tgz 0ms (cache hit)
+152 http cache once@https://registry.npmjs.org/once/-/once-1.4.0.tgz 0ms (cache hit)
+153 http cache path-to-regexp@https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-8.3.0.tgz 0ms (cache hit)
+154 http cache object-assign@https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz 0ms (cache hit)
+155 http cache on-finished@https://registry.npmjs.org/on-finished/-/on-finished-2.4.1.tgz 0ms (cache hit)
+156 http cache node-abi@https://registry.npmjs.org/node-abi/-/node-abi-3.80.0.tgz 0ms (cache hit)
+157 http cache negotiator@https://registry.npmjs.org/negotiator/-/negotiator-1.0.0.tgz 0ms (cache hit)
+158 http cache mkdirp-classic@https://registry.npmjs.org/mkdirp-classic/-/mkdirp-classic-0.5.3.tgz 0ms (cache hit)
+159 http cache ms@https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 0ms (cache hit)
+160 http cache napi-build-utils@https://registry.npmjs.org/napi-build-utils/-/napi-build-utils-2.0.0.tgz 0ms (cache hit)
+161 http cache mimic-response@https://registry.npmjs.org/mimic-response/-/mimic-response-3.1.0.tgz 0ms (cache hit)
+162 http cache merge-descriptors@https://registry.npmjs.org/merge-descriptors/-/merge-descriptors-2.0.0.tgz 0ms (cache hit)
+163 http cache minimist@https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz 0ms (cache hit)
+164 http cache mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.54.0.tgz 0ms (cache hit)
+165 http cache has-symbols@https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz 0ms (cache hit)
+166 http cache is-promise@https://registry.npmjs.org/is-promise/-/is-promise-4.0.0.tgz 0ms (cache hit)
+167 http cache mime-types@https://registry.npmjs.org/mime-types/-/mime-types-3.0.1.tgz 0ms (cache hit)
+168 http cache media-typer@https://registry.npmjs.org/media-typer/-/media-typer-1.1.0.tgz 0ms (cache hit)
+169 http cache ipaddr.js@https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.9.1.tgz 0ms (cache hit)
+170 http cache object-inspect@https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.4.tgz 0ms (cache hit)
+171 http cache ieee754@https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz 0ms (cache hit)
+172 http cache ini@https://registry.npmjs.org/ini/-/ini-1.3.8.tgz 0ms (cache hit)
+173 http cache math-intrinsics@https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz 0ms (cache hit)
+174 http cache inherits@https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz 0ms (cache hit)
+175 http cache hasown@https://registry.npmjs.org/hasown/-/hasown-2.0.2.tgz 0ms (cache hit)
+176 http cache iconv-lite@https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz 0ms (cache hit)
+177 http cache gopd@https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz 0ms (cache hit)
+178 http cache github-from-package@https://registry.npmjs.org/github-from-package/-/github-from-package-0.0.0.tgz 0ms (cache hit)
+179 http cache http-errors@https://registry.npmjs.org/http-errors/-/http-errors-2.0.0.tgz 0ms (cache hit)
+180 http cache fs-constants@https://registry.npmjs.org/fs-constants/-/fs-constants-1.0.0.tgz 0ms (cache hit)
+181 http cache function-bind@https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz 0ms (cache hit)
+182 http cache get-intrinsic@https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.3.0.tgz 0ms (cache hit)
+183 http cache get-proto@https://registry.npmjs.org/get-proto/-/get-proto-1.0.1.tgz 0ms (cache hit)
+184 http cache express@https://registry.npmjs.org/express/-/express-5.1.0.tgz 0ms (cache hit)
+185 http cache fresh@https://registry.npmjs.org/fresh/-/fresh-2.0.0.tgz 0ms (cache hit)
+186 http cache forwarded@https://registry.npmjs.org/forwarded/-/forwarded-0.2.0.tgz 0ms (cache hit)
+187 http cache etag@https://registry.npmjs.org/etag/-/etag-1.8.1.tgz 0ms (cache hit)
+188 http cache finalhandler@https://registry.npmjs.org/finalhandler/-/finalhandler-2.1.0.tgz 0ms (cache hit)
+189 http cache expand-template@https://registry.npmjs.org/expand-template/-/expand-template-2.0.3.tgz 0ms (cache hit)
+190 http cache file-uri-to-path@https://registry.npmjs.org/file-uri-to-path/-/file-uri-to-path-1.0.0.tgz 0ms (cache hit)
+191 http cache escape-html@https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz 0ms (cache hit)
+192 http cache ejs@https://registry.npmjs.org/ejs/-/ejs-5.0.1.tgz 0ms (cache hit)
+193 http cache es-define-property@https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz 0ms (cache hit)
+194 http cache es-errors@https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz 0ms (cache hit)
+195 http cache end-of-stream@https://registry.npmjs.org/end-of-stream/-/end-of-stream-1.4.5.tgz 0ms (cache hit)
+196 http cache ee-first@https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz 0ms (cache hit)
+197 http cache detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz 0ms (cache hit)
+198 http cache encodeurl@https://registry.npmjs.org/encodeurl/-/encodeurl-2.0.0.tgz 0ms (cache hit)
+199 http cache depd@https://registry.npmjs.org/depd/-/depd-2.0.0.tgz 0ms (cache hit)
+200 http cache deep-extend@https://registry.npmjs.org/deep-extend/-/deep-extend-0.6.0.tgz 0ms (cache hit)
+201 http cache dunder-proto@https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz 0ms (cache hit)
+202 http cache debug@https://registry.npmjs.org/debug/-/debug-4.4.3.tgz 0ms (cache hit)
+203 http cache decompress-response@https://registry.npmjs.org/decompress-response/-/decompress-response-6.0.0.tgz 0ms (cache hit)
+204 http cache cookie-signature@https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.2.2.tgz 0ms (cache hit)
+205 http cache content-type@https://registry.npmjs.org/content-type/-/content-type-1.0.5.tgz 0ms (cache hit)
+206 http cache cookie@https://registry.npmjs.org/cookie/-/cookie-0.7.2.tgz 0ms (cache hit)
+207 http cache cors@https://registry.npmjs.org/cors/-/cors-2.8.5.tgz 0ms (cache hit)
+208 http cache call-bound@https://registry.npmjs.org/call-bound/-/call-bound-1.0.4.tgz 0ms (cache hit)
+209 http cache chownr@https://registry.npmjs.org/chownr/-/chownr-1.1.4.tgz 0ms (cache hit)
+210 http cache call-bind-apply-helpers@https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz 0ms (cache hit)
+211 http cache content-disposition@https://registry.npmjs.org/content-disposition/-/content-disposition-1.0.0.tgz 0ms (cache hit)
+212 http cache bindings@https://registry.npmjs.org/bindings/-/bindings-1.5.0.tgz 1ms (cache hit)
+213 http cache body-parser@https://registry.npmjs.org/body-parser/-/body-parser-2.2.0.tgz 0ms (cache hit)
+214 http cache bytes@https://registry.npmjs.org/bytes/-/bytes-3.1.2.tgz 0ms (cache hit)
+215 http cache es-object-atoms@https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.1.tgz 0ms (cache hit)
+216 http cache better-sqlite3@https://registry.npmjs.org/better-sqlite3/-/better-sqlite3-12.4.1.tgz 0ms (cache hit)
+217 http cache buffer@https://registry.npmjs.org/buffer/-/buffer-5.7.1.tgz 0ms (cache hit)
+218 http cache bl@https://registry.npmjs.org/bl/-/bl-4.1.0.tgz 1ms (cache hit)
+219 http cache iconv-lite@https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.7.0.tgz 0ms (cache hit)
+220 silly tarball no local data for unpipe@https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz. Extracting by manifest.
+221 silly tarball no local data for wrappy@https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz. Extracting by manifest.
+222 silly tarball no local data for vary@https://registry.npmjs.org/vary/-/vary-1.1.2.tgz. Extracting by manifest.
+223 silly tarball no local data for util-deprecate@https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz. Extracting by manifest.
+224 silly tarball no local data for type-is@https://registry.npmjs.org/type-is/-/type-is-2.0.1.tgz. Extracting by manifest.
+225 http cache statuses@https://registry.npmjs.org/statuses/-/statuses-2.0.1.tgz 0ms (cache hit)
+226 silly tarball no local data for tunnel-agent@https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.6.0.tgz. Extracting by manifest.
+227 silly tarball no local data for toidentifier@https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.1.tgz. Extracting by manifest.
+228 silly tarball no local data for tar-stream@https://registry.npmjs.org/tar-stream/-/tar-stream-2.2.0.tgz. Extracting by manifest.
+229 silly tarball no local data for strip-json-comments@https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-2.0.1.tgz. Extracting by manifest.
+230 silly tarball no local data for statuses@https://registry.npmjs.org/statuses/-/statuses-2.0.2.tgz. Extracting by manifest.
+231 silly tarball no local data for tar-fs@https://registry.npmjs.org/tar-fs/-/tar-fs-2.1.4.tgz. Extracting by manifest.
+232 silly tarball no local data for simple-get@https://registry.npmjs.org/simple-get/-/simple-get-4.0.1.tgz. Extracting by manifest.
+233 silly tarball no local data for side-channel-weakmap@https://registry.npmjs.org/side-channel-weakmap/-/side-channel-weakmap-1.0.2.tgz. Extracting by manifest.
+234 silly tarball no local data for string_decoder@https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz. Extracting by manifest.
+235 silly tarball no local data for side-channel-list@https://registry.npmjs.org/side-channel-list/-/side-channel-list-1.0.0.tgz. Extracting by manifest.
+236 silly tarball no local data for side-channel@https://registry.npmjs.org/side-channel/-/side-channel-1.1.0.tgz. Extracting by manifest.
+237 silly tarball no local data for simple-concat@https://registry.npmjs.org/simple-concat/-/simple-concat-1.0.1.tgz. Extracting by manifest.
+238 silly tarball no local data for side-channel-map@https://registry.npmjs.org/side-channel-map/-/side-channel-map-1.0.1.tgz. Extracting by manifest.
+239 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-7.7.3.tgz. Extracting by manifest.
+240 silly tarball no local data for safer-buffer@https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz. Extracting by manifest.
+241 silly tarball no local data for setprototypeof@https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz. Extracting by manifest.
+242 silly tarball no local data for safe-buffer@https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz. Extracting by manifest.
+243 silly tarball no local data for serve-static@https://registry.npmjs.org/serve-static/-/serve-static-2.2.0.tgz. Extracting by manifest.
+244 silly tarball no local data for router@https://registry.npmjs.org/router/-/router-2.2.0.tgz. Extracting by manifest.
+245 silly tarball no local data for send@https://registry.npmjs.org/send/-/send-1.2.0.tgz. Extracting by manifest.
+246 silly tarball no local data for rc@https://registry.npmjs.org/rc/-/rc-1.2.8.tgz. Extracting by manifest.
+247 silly tarball no local data for prebuild-install@https://registry.npmjs.org/prebuild-install/-/prebuild-install-7.1.3.tgz. Extracting by manifest.
+248 silly tarball no local data for readable-stream@https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz. Extracting by manifest.
+249 silly tarball no local data for range-parser@https://registry.npmjs.org/range-parser/-/range-parser-1.2.1.tgz. Extracting by manifest.
+250 silly tarball no local data for qs@https://registry.npmjs.org/qs/-/qs-6.14.0.tgz. Extracting by manifest.
+251 silly tarball no local data for pump@https://registry.npmjs.org/pump/-/pump-3.0.3.tgz. Extracting by manifest.
+252 silly tarball no local data for raw-body@https://registry.npmjs.org/raw-body/-/raw-body-3.0.1.tgz. Extracting by manifest.
+253 silly tarball no local data for proxy-addr@https://registry.npmjs.org/proxy-addr/-/proxy-addr-2.0.7.tgz. Extracting by manifest.
+254 silly tarball no local data for parseurl@https://registry.npmjs.org/parseurl/-/parseurl-1.3.3.tgz. Extracting by manifest.
+255 silly tarball no local data for once@https://registry.npmjs.org/once/-/once-1.4.0.tgz. Extracting by manifest.
+256 silly tarball no local data for path-to-regexp@https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-8.3.0.tgz. Extracting by manifest.
+257 http cache base64-js@https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz 0ms (cache hit)
+258 silly tarball no local data for object-assign@https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz. Extracting by manifest.
+259 silly tarball no local data for on-finished@https://registry.npmjs.org/on-finished/-/on-finished-2.4.1.tgz. Extracting by manifest.
+260 silly tarball no local data for node-abi@https://registry.npmjs.org/node-abi/-/node-abi-3.80.0.tgz. Extracting by manifest.
+261 silly tarball no local data for negotiator@https://registry.npmjs.org/negotiator/-/negotiator-1.0.0.tgz. Extracting by manifest.
+262 http cache accepts@https://registry.npmjs.org/accepts/-/accepts-2.0.0.tgz 0ms (cache hit)
+263 silly tarball no local data for mkdirp-classic@https://registry.npmjs.org/mkdirp-classic/-/mkdirp-classic-0.5.3.tgz. Extracting by manifest.
+264 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.1.3.tgz. Extracting by manifest.
+265 silly tarball no local data for napi-build-utils@https://registry.npmjs.org/napi-build-utils/-/napi-build-utils-2.0.0.tgz. Extracting by manifest.
+266 silly tarball no local data for mimic-response@https://registry.npmjs.org/mimic-response/-/mimic-response-3.1.0.tgz. Extracting by manifest.
+267 silly tarball no local data for merge-descriptors@https://registry.npmjs.org/merge-descriptors/-/merge-descriptors-2.0.0.tgz. Extracting by manifest.
+268 silly tarball no local data for minimist@https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz. Extracting by manifest.
+269 silly tarball no local data for mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.54.0.tgz. Extracting by manifest.
+270 silly tarball no local data for has-symbols@https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz. Extracting by manifest.
+271 silly tarball no local data for is-promise@https://registry.npmjs.org/is-promise/-/is-promise-4.0.0.tgz. Extracting by manifest.
+272 silly tarball no local data for mime-types@https://registry.npmjs.org/mime-types/-/mime-types-3.0.1.tgz. Extracting by manifest.
+273 silly tarball no local data for media-typer@https://registry.npmjs.org/media-typer/-/media-typer-1.1.0.tgz. Extracting by manifest.
+274 silly tarball no local data for ipaddr.js@https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.9.1.tgz. Extracting by manifest.
+275 silly tarball no local data for object-inspect@https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.4.tgz. Extracting by manifest.
+276 silly tarball no local data for ieee754@https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz. Extracting by manifest.
+277 silly tarball no local data for ini@https://registry.npmjs.org/ini/-/ini-1.3.8.tgz. Extracting by manifest.
+278 silly tarball no local data for math-intrinsics@https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz. Extracting by manifest.
+279 silly tarball no local data for inherits@https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz. Extracting by manifest.
+280 silly tarball no local data for hasown@https://registry.npmjs.org/hasown/-/hasown-2.0.2.tgz. Extracting by manifest.
+281 silly tarball no local data for iconv-lite@https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz. Extracting by manifest.
+282 silly tarball no local data for gopd@https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz. Extracting by manifest.
+283 silly tarball no local data for github-from-package@https://registry.npmjs.org/github-from-package/-/github-from-package-0.0.0.tgz. Extracting by manifest.
+284 silly tarball no local data for http-errors@https://registry.npmjs.org/http-errors/-/http-errors-2.0.0.tgz. Extracting by manifest.
+285 silly tarball no local data for fs-constants@https://registry.npmjs.org/fs-constants/-/fs-constants-1.0.0.tgz. Extracting by manifest.
+286 silly tarball no local data for function-bind@https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz. Extracting by manifest.
+287 silly tarball no local data for get-intrinsic@https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.3.0.tgz. Extracting by manifest.
+288 silly tarball no local data for get-proto@https://registry.npmjs.org/get-proto/-/get-proto-1.0.1.tgz. Extracting by manifest.
+289 silly tarball no local data for express@https://registry.npmjs.org/express/-/express-5.1.0.tgz. Extracting by manifest.
+290 silly tarball no local data for fresh@https://registry.npmjs.org/fresh/-/fresh-2.0.0.tgz. Extracting by manifest.
+291 silly tarball no local data for forwarded@https://registry.npmjs.org/forwarded/-/forwarded-0.2.0.tgz. Extracting by manifest.
+292 silly tarball no local data for etag@https://registry.npmjs.org/etag/-/etag-1.8.1.tgz. Extracting by manifest.
+293 silly tarball no local data for finalhandler@https://registry.npmjs.org/finalhandler/-/finalhandler-2.1.0.tgz. Extracting by manifest.
+294 silly tarball no local data for expand-template@https://registry.npmjs.org/expand-template/-/expand-template-2.0.3.tgz. Extracting by manifest.
+295 silly tarball no local data for file-uri-to-path@https://registry.npmjs.org/file-uri-to-path/-/file-uri-to-path-1.0.0.tgz. Extracting by manifest.
+296 silly tarball no local data for escape-html@https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz. Extracting by manifest.
+297 silly tarball no local data for ejs@https://registry.npmjs.org/ejs/-/ejs-5.0.1.tgz. Extracting by manifest.
+298 silly tarball no local data for es-define-property@https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz. Extracting by manifest.
+299 silly tarball no local data for es-errors@https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz. Extracting by manifest.
+300 silly tarball no local data for end-of-stream@https://registry.npmjs.org/end-of-stream/-/end-of-stream-1.4.5.tgz. Extracting by manifest.
+301 silly tarball no local data for ee-first@https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz. Extracting by manifest.
+302 silly tarball no local data for detect-libc@https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz. Extracting by manifest.
+303 silly tarball no local data for encodeurl@https://registry.npmjs.org/encodeurl/-/encodeurl-2.0.0.tgz. Extracting by manifest.
+304 silly tarball no local data for depd@https://registry.npmjs.org/depd/-/depd-2.0.0.tgz. Extracting by manifest.
+305 silly tarball no local data for deep-extend@https://registry.npmjs.org/deep-extend/-/deep-extend-0.6.0.tgz. Extracting by manifest.
+306 silly tarball no local data for dunder-proto@https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz. Extracting by manifest.
+307 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-4.4.3.tgz. Extracting by manifest.
+308 silly tarball no local data for decompress-response@https://registry.npmjs.org/decompress-response/-/decompress-response-6.0.0.tgz. Extracting by manifest.
+309 silly tarball no local data for cookie-signature@https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.2.2.tgz. Extracting by manifest.
+310 silly tarball no local data for content-type@https://registry.npmjs.org/content-type/-/content-type-1.0.5.tgz. Extracting by manifest.
+311 silly tarball no local data for cookie@https://registry.npmjs.org/cookie/-/cookie-0.7.2.tgz. Extracting by manifest.
+312 silly tarball no local data for cors@https://registry.npmjs.org/cors/-/cors-2.8.5.tgz. Extracting by manifest.
+313 silly tarball no local data for call-bound@https://registry.npmjs.org/call-bound/-/call-bound-1.0.4.tgz. Extracting by manifest.
+314 silly tarball no local data for chownr@https://registry.npmjs.org/chownr/-/chownr-1.1.4.tgz. Extracting by manifest.
+315 silly tarball no local data for call-bind-apply-helpers@https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz. Extracting by manifest.
+316 silly tarball no local data for content-disposition@https://registry.npmjs.org/content-disposition/-/content-disposition-1.0.0.tgz. Extracting by manifest.
+317 silly tarball no local data for bindings@https://registry.npmjs.org/bindings/-/bindings-1.5.0.tgz. Extracting by manifest.
+318 silly tarball no local data for body-parser@https://registry.npmjs.org/body-parser/-/body-parser-2.2.0.tgz. Extracting by manifest.
+319 silly tarball no local data for bytes@https://registry.npmjs.org/bytes/-/bytes-3.1.2.tgz. Extracting by manifest.
+320 silly tarball no local data for es-object-atoms@https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.1.tgz. Extracting by manifest.
+321 silly tarball no local data for better-sqlite3@https://registry.npmjs.org/better-sqlite3/-/better-sqlite3-12.4.1.tgz. Extracting by manifest.
+322 silly tarball no local data for buffer@https://registry.npmjs.org/buffer/-/buffer-5.7.1.tgz. Extracting by manifest.
+323 silly tarball no local data for bl@https://registry.npmjs.org/bl/-/bl-4.1.0.tgz. Extracting by manifest.
+324 silly tarball no local data for iconv-lite@https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.7.0.tgz. Extracting by manifest.
+325 silly tarball no local data for statuses@https://registry.npmjs.org/statuses/-/statuses-2.0.1.tgz. Extracting by manifest.
+326 silly tarball no local data for base64-js@https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz. Extracting by manifest.
+327 silly tarball no local data for accepts@https://registry.npmjs.org/accepts/-/accepts-2.0.0.tgz. Extracting by manifest.
+328 http fetch GET 200 https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz 880ms (cache miss)
+329 http fetch GET 200 https://registry.npmjs.org/vary/-/vary-1.1.2.tgz 876ms (cache miss)
+330 http fetch GET 200 https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.6.0.tgz 873ms (cache miss)
+331 http fetch GET 200 https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz 878ms (cache miss)
+332 http fetch GET 200 https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.1.tgz 874ms (cache miss)
+333 http fetch GET 200 https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz 880ms (cache miss)
+334 http fetch GET 200 https://registry.npmjs.org/type-is/-/type-is-2.0.1.tgz 879ms (cache miss)
+335 http fetch GET 200 https://registry.npmjs.org/side-channel-list/-/side-channel-list-1.0.0.tgz 882ms (cache miss)
+336 http fetch GET 200 https://registry.npmjs.org/statuses/-/statuses-2.0.2.tgz 909ms (cache miss)
+337 http fetch GET 200 https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz 916ms (cache miss)
+338 http fetch GET 200 https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-2.0.1.tgz 931ms (cache miss)
+339 http fetch GET 200 https://registry.npmjs.org/simple-get/-/simple-get-4.0.1.tgz 930ms (cache miss)
+340 http fetch GET 200 https://registry.npmjs.org/side-channel-weakmap/-/side-channel-weakmap-1.0.2.tgz 934ms (cache miss)
+341 http fetch GET 200 https://registry.npmjs.org/tar-stream/-/tar-stream-2.2.0.tgz 940ms (cache miss)
+342 http fetch GET 200 https://registry.npmjs.org/tar-fs/-/tar-fs-2.1.4.tgz 954ms (cache miss)
+343 http fetch GET 200 https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz 1086ms (cache miss)
+344 http fetch GET 200 https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz 1095ms (cache miss)
+345 http fetch GET 200 https://registry.npmjs.org/side-channel-map/-/side-channel-map-1.0.1.tgz 1102ms (cache miss)
+346 http fetch GET 200 https://registry.npmjs.org/serve-static/-/serve-static-2.2.0.tgz 1184ms (cache miss)
+347 http fetch GET 200 https://registry.npmjs.org/side-channel/-/side-channel-1.1.0.tgz 1187ms (cache miss)
+348 http fetch GET 200 https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz 1211ms (cache miss)
+349 http fetch GET 200 https://registry.npmjs.org/simple-concat/-/simple-concat-1.0.1.tgz 1223ms (cache miss)
+350 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-7.7.3.tgz 1227ms (cache miss)
+351 http fetch GET 200 https://registry.npmjs.org/router/-/router-2.2.0.tgz 1288ms (cache miss)
+352 http fetch GET 200 https://registry.npmjs.org/rc/-/rc-1.2.8.tgz 1374ms (cache miss)
+353 http fetch GET 200 https://registry.npmjs.org/range-parser/-/range-parser-1.2.1.tgz 1375ms (cache miss)
+354 http fetch GET 200 https://registry.npmjs.org/send/-/send-1.2.0.tgz 1383ms (cache miss)
+355 http fetch GET 200 https://registry.npmjs.org/prebuild-install/-/prebuild-install-7.1.3.tgz 1405ms (cache miss)
+356 http fetch GET 200 https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz 1440ms (cache miss)
+357 http fetch GET 200 https://registry.npmjs.org/qs/-/qs-6.14.0.tgz 1507ms (cache miss)
+358 http fetch GET 200 https://registry.npmjs.org/pump/-/pump-3.0.3.tgz 1598ms (cache miss)
+359 http fetch GET 200 https://registry.npmjs.org/raw-body/-/raw-body-3.0.1.tgz 1619ms (cache miss)
+360 http fetch GET 200 https://registry.npmjs.org/proxy-addr/-/proxy-addr-2.0.7.tgz 1622ms (cache miss)
+361 http fetch GET 200 https://registry.npmjs.org/once/-/once-1.4.0.tgz 1664ms (cache miss)
+362 http fetch GET 200 https://registry.npmjs.org/parseurl/-/parseurl-1.3.3.tgz 1664ms (cache miss)
+363 http fetch GET 200 https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz 1672ms (cache miss)
+364 http fetch GET 200 https://registry.npmjs.org/on-finished/-/on-finished-2.4.1.tgz 1682ms (cache miss)
+365 http fetch GET 200 https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-8.3.0.tgz 1685ms (cache miss)
+366 http fetch GET 200 https://registry.npmjs.org/node-abi/-/node-abi-3.80.0.tgz 1712ms (cache miss)
+367 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 1722ms (cache miss)
+368 http fetch GET 200 https://registry.npmjs.org/mkdirp-classic/-/mkdirp-classic-0.5.3.tgz 1725ms (cache miss)
+369 http fetch GET 200 https://registry.npmjs.org/negotiator/-/negotiator-1.0.0.tgz 1792ms (cache miss)
+370 http fetch GET 200 https://registry.npmjs.org/napi-build-utils/-/napi-build-utils-2.0.0.tgz 1795ms (cache miss)
+371 http fetch GET 200 https://registry.npmjs.org/mimic-response/-/mimic-response-3.1.0.tgz 1802ms (cache miss)
+372 http fetch GET 200 https://registry.npmjs.org/merge-descriptors/-/merge-descriptors-2.0.0.tgz 1899ms (cache miss)
+373 http fetch GET 200 https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz 1939ms (cache miss)
+374 http fetch GET 200 https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz 1991ms (cache miss)
+375 http fetch GET 200 https://registry.npmjs.org/is-promise/-/is-promise-4.0.0.tgz 2030ms (cache miss)
+376 http fetch GET 200 https://registry.npmjs.org/mime-types/-/mime-types-3.0.1.tgz 2039ms (cache miss)
+377 http fetch GET 200 https://registry.npmjs.org/mime-db/-/mime-db-1.54.0.tgz 2055ms (cache miss)
+378 http fetch GET 200 https://registry.npmjs.org/media-typer/-/media-typer-1.1.0.tgz 2059ms (cache miss)
+379 http fetch GET 200 https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.9.1.tgz 2170ms (cache miss)
+380 http fetch GET 200 https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.4.tgz 2265ms (cache miss)
+381 http fetch GET 200 https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz 2269ms (cache miss)
+382 http fetch GET 200 https://registry.npmjs.org/ini/-/ini-1.3.8.tgz 2298ms (cache miss)
+383 http fetch GET 200 https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz 2324ms (cache miss)
+384 http fetch GET 200 https://registry.npmjs.org/hasown/-/hasown-2.0.2.tgz 2331ms (cache miss)
+385 http fetch GET 200 https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz 2341ms (cache miss)
+386 http fetch GET 200 https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz 2648ms (cache miss)
+387 http fetch GET 200 https://registry.npmjs.org/github-from-package/-/github-from-package-0.0.0.tgz 2689ms (cache miss)
+388 http fetch GET 200 https://registry.npmjs.org/fs-constants/-/fs-constants-1.0.0.tgz 2703ms (cache miss)
+389 http fetch GET 200 https://registry.npmjs.org/http-errors/-/http-errors-2.0.0.tgz 2708ms (cache miss)
+390 http fetch GET 200 https://registry.npmjs.org/get-proto/-/get-proto-1.0.1.tgz 2782ms (cache miss)
+391 http fetch GET 200 https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz 2816ms (cache miss)
+392 http fetch GET 200 https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.3.0.tgz 2816ms (cache miss)
+393 http fetch GET 200 https://registry.npmjs.org/express/-/express-5.1.0.tgz 2875ms (cache miss)
+394 http fetch GET 200 https://registry.npmjs.org/forwarded/-/forwarded-0.2.0.tgz 2923ms (cache miss)
+395 http fetch GET 200 https://registry.npmjs.org/fresh/-/fresh-2.0.0.tgz 2924ms (cache miss)
+396 http fetch GET 200 https://registry.npmjs.org/etag/-/etag-1.8.1.tgz 2975ms (cache miss)
+397 http fetch GET 200 https://registry.npmjs.org/expand-template/-/expand-template-2.0.3.tgz 2978ms (cache miss)
+398 http fetch GET 200 https://registry.npmjs.org/finalhandler/-/finalhandler-2.1.0.tgz 2982ms (cache miss)
+399 http fetch GET 200 https://registry.npmjs.org/file-uri-to-path/-/file-uri-to-path-1.0.0.tgz 2985ms (cache miss)
+400 http fetch GET 200 https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz 3189ms (cache miss)
+401 http fetch GET 200 https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz 3289ms (cache miss)
+402 http fetch GET 200 https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz 3297ms (cache miss)
+403 http fetch GET 200 https://registry.npmjs.org/ejs/-/ejs-5.0.1.tgz 3415ms (cache miss)
+404 http fetch GET 200 https://registry.npmjs.org/end-of-stream/-/end-of-stream-1.4.5.tgz 3418ms (cache miss)
+405 http fetch GET 200 https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz 3444ms (cache miss)
+406 http fetch GET 200 https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz 3455ms (cache miss)
+407 http fetch GET 200 https://registry.npmjs.org/encodeurl/-/encodeurl-2.0.0.tgz 3598ms (cache miss)
+408 http fetch GET 200 https://registry.npmjs.org/depd/-/depd-2.0.0.tgz 3606ms (cache miss)
+409 http fetch GET 200 https://registry.npmjs.org/deep-extend/-/deep-extend-0.6.0.tgz 3617ms (cache miss)
+410 http fetch GET 200 https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz 3709ms (cache miss)
+411 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-4.4.3.tgz 3711ms (cache miss)
+412 http fetch GET 200 https://registry.npmjs.org/decompress-response/-/decompress-response-6.0.0.tgz 3713ms (cache miss)
+413 http fetch GET 200 https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz 3741ms (cache miss)
+414 http fetch GET 200 https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.2.2.tgz 3755ms (cache miss)
+415 http fetch GET 200 https://registry.npmjs.org/content-type/-/content-type-1.0.5.tgz 3806ms (cache miss)
+416 http fetch GET 200 https://registry.npmjs.org/cors/-/cors-2.8.5.tgz 3877ms (cache miss)
+417 http fetch GET 200 https://registry.npmjs.org/cookie/-/cookie-0.7.2.tgz 3880ms (cache miss)
+418 http fetch GET 200 https://registry.npmjs.org/chownr/-/chownr-1.1.4.tgz 3984ms (cache miss)
+419 http fetch GET 200 https://registry.npmjs.org/call-bound/-/call-bound-1.0.4.tgz 4005ms (cache miss)
+420 http fetch GET 200 https://registry.npmjs.org/content-disposition/-/content-disposition-1.0.0.tgz 4011ms (cache miss)
+421 http fetch GET 200 https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz 4029ms (cache miss)
+422 http fetch GET 200 https://registry.npmjs.org/bindings/-/bindings-1.5.0.tgz 4269ms (cache miss)
+423 http fetch GET 200 https://registry.npmjs.org/bytes/-/bytes-3.1.2.tgz 4287ms (cache miss)
+424 http fetch GET 200 https://registry.npmjs.org/body-parser/-/body-parser-2.2.0.tgz 4338ms (cache miss)
+425 http fetch GET 200 https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.1.tgz 4383ms (cache miss)
+426 http fetch GET 200 https://registry.npmjs.org/bl/-/bl-4.1.0.tgz 4643ms (cache miss)
+427 http fetch GET 200 https://registry.npmjs.org/buffer/-/buffer-5.7.1.tgz 4648ms (cache miss)
+428 http fetch GET 200 https://registry.npmjs.org/statuses/-/statuses-2.0.1.tgz 4721ms (cache miss)
+429 http fetch GET 200 https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz 4907ms (cache miss)
+430 http fetch GET 200 https://registry.npmjs.org/accepts/-/accepts-2.0.0.tgz 4907ms (cache miss)
+431 http fetch GET 200 https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.7.0.tgz 7315ms (cache miss)
+432 http fetch GET 200 https://registry.npmjs.org/better-sqlite3/-/better-sqlite3-12.4.1.tgz 34070ms (cache miss)
+433 info run better-sqlite3@12.4.1 install node_modules/better-sqlite3 prebuild-install || node-gyp rebuild --release
+434 info run better-sqlite3@12.4.1 install { code: 0, signal: null }
+435 silly CHANGE node_modules/wrappy
+436 silly CHANGE node_modules/unpipe
+437 silly CHANGE node_modules/util-deprecate
+438 silly CHANGE node_modules/vary
+439 silly CHANGE node_modules/type-is
+440 silly CHANGE node_modules/tar-stream
+441 silly CHANGE node_modules/tunnel-agent
+442 silly CHANGE node_modules/toidentifier
+443 silly CHANGE node_modules/strip-json-comments
+444 silly CHANGE node_modules/statuses
+445 silly CHANGE node_modules/tar-fs
+446 silly CHANGE node_modules/simple-get
+447 silly CHANGE node_modules/string_decoder
+448 silly CHANGE node_modules/side-channel-weakmap
+449 silly CHANGE node_modules/simple-concat
+450 silly CHANGE node_modules/side-channel-list
+451 silly CHANGE node_modules/side-channel
+452 silly CHANGE node_modules/side-channel-map
+453 silly CHANGE node_modules/send
+454 silly CHANGE node_modules/setprototypeof
+455 silly CHANGE node_modules/semver
+456 silly CHANGE node_modules/safer-buffer
+457 silly CHANGE node_modules/serve-static
+458 silly CHANGE node_modules/safe-buffer
+459 silly CHANGE node_modules/router
+460 silly CHANGE node_modules/rc
+461 silly CHANGE node_modules/raw-body
+462 silly CHANGE node_modules/raw-body/node_modules/iconv-lite
+463 silly CHANGE node_modules/readable-stream
+464 silly CHANGE node_modules/range-parser
+465 silly CHANGE node_modules/prebuild-install
+466 silly CHANGE node_modules/pump
+467 silly CHANGE node_modules/qs
+468 silly CHANGE node_modules/proxy-addr
+469 silly CHANGE node_modules/path-to-regexp
+470 silly CHANGE node_modules/parseurl
+471 silly CHANGE node_modules/on-finished
+472 silly CHANGE node_modules/once
+473 silly CHANGE node_modules/object-assign
+474 silly CHANGE node_modules/node-abi
+475 silly CHANGE node_modules/object-inspect
+476 silly CHANGE node_modules/negotiator
+477 silly CHANGE node_modules/ms
+478 silly CHANGE node_modules/mkdirp-classic
+479 silly CHANGE node_modules/minimist
+480 silly CHANGE node_modules/napi-build-utils
+481 silly CHANGE node_modules/mimic-response
+482 silly CHANGE node_modules/merge-descriptors
+483 silly CHANGE node_modules/mime-db
+484 silly CHANGE node_modules/has-symbols
+485 silly CHANGE node_modules/mime-types
+486 silly CHANGE node_modules/media-typer
+487 silly CHANGE node_modules/is-promise
+488 silly CHANGE node_modules/ieee754
+489 silly CHANGE node_modules/ipaddr.js
+490 silly CHANGE node_modules/math-intrinsics
+491 silly CHANGE node_modules/ini
+492 silly CHANGE node_modules/http-errors
+493 silly CHANGE node_modules/http-errors/node_modules/statuses
+494 silly CHANGE node_modules/inherits
+495 silly CHANGE node_modules/hasown
+496 silly CHANGE node_modules/iconv-lite
+497 silly CHANGE node_modules/gopd
+498 silly CHANGE node_modules/get-proto
+499 silly CHANGE node_modules/github-from-package
+500 silly CHANGE node_modules/function-bind
+501 silly CHANGE node_modules/fs-constants
+502 silly CHANGE node_modules/get-intrinsic
+503 silly CHANGE node_modules/fresh
+504 silly CHANGE node_modules/forwarded
+505 silly CHANGE node_modules/express
+506 silly CHANGE node_modules/file-uri-to-path
+507 silly CHANGE node_modules/expand-template
+508 silly CHANGE node_modules/etag
+509 silly CHANGE node_modules/finalhandler
+510 silly CHANGE node_modules/encodeurl
+511 silly CHANGE node_modules/ejs
+512 silly CHANGE node_modules/escape-html
+513 silly CHANGE node_modules/end-of-stream
+514 silly CHANGE node_modules/es-object-atoms
+515 silly CHANGE node_modules/es-errors
+516 silly CHANGE node_modules/es-define-property
+517 silly CHANGE node_modules/ee-first
+518 silly CHANGE node_modules/depd
+519 silly CHANGE node_modules/dunder-proto
+520 silly CHANGE node_modules/detect-libc
+521 silly CHANGE node_modules/deep-extend
+522 silly CHANGE node_modules/cors
+523 silly CHANGE node_modules/debug
+524 silly CHANGE node_modules/cookie-signature
+525 silly CHANGE node_modules/decompress-response
+526 silly CHANGE node_modules/cookie
+527 silly CHANGE node_modules/content-type
+528 silly CHANGE node_modules/call-bound
+529 silly CHANGE node_modules/call-bind-apply-helpers
+530 silly CHANGE node_modules/chownr
+531 silly CHANGE node_modules/content-disposition
+532 silly CHANGE node_modules/bytes
+533 silly CHANGE node_modules/body-parser
+534 silly CHANGE node_modules/better-sqlite3
+535 silly CHANGE node_modules/bindings
+536 silly CHANGE node_modules/buffer
+537 silly CHANGE node_modules/bl
+538 silly CHANGE node_modules/base64-js
+539 silly CHANGE node_modules/accepts
+540 verbose cwd C:\Users\dpm\Desktop\GlondiaAnalysts-ConsultancyWebsite-main (1)
+541 verbose os Windows_NT 10.0.26100
+542 verbose node v24.12.0
+543 verbose npm  v11.6.2
+544 verbose exit 0
+545 info ok

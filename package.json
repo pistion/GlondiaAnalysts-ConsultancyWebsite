@@ -1,0 +1,22 @@
+{
+  "name": "mywebsite-v2",
+  "version": "1.0.0",
+  "description": "Rebuilt Express website with consolidated database logic.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "view-db": "node view-db.js"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.4.1",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "ejs": "^5.0.1",
+    "express": "^5.1.0"
+  }
+}

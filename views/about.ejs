@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About &ndash; Glondia</title>
+  <link rel="stylesheet" href="site.css" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body id="page--about" class="page">
+  <header id="site-header" class="site-header" role="banner">
+    <div class="container header__inner">
+      <a class="brand" id="brand" href="index" aria-label="Glondia home">
+        <img class="brand__logo" src="imgs/logo.png" alt="Glondia logo" />
+        <span class="brand__name">Glondia</span>
+      </a>
+
+      <nav id="primary-nav" class="nav" aria-label="Primary">
+        <a class="nav__link" href="index">Home</a>
+        <a class="nav__link" href="portfolio">Portfolio</a>
+        <div class="nav__item nav__item--has-menu">
+          <a class="nav__link" href="publications">Publications</a>
+          <div class="nav__dropdown" aria-label="Publications categories">
+            <a class="nav__dropdown-link" href="publications/articles">Articles</a>
+            <a class="nav__dropdown-link" href="publications#reports">Reports</a>
+            <a class="nav__dropdown-link" href="publications#research">Research</a>
+          </div>
+        </div>
+        <a class="nav__link" href="services">Services</a>
+        <a class="nav__link" href="Consultants">Consultants</a>
+        <a class="nav__link" href="contact">Contact</a>
+        <a class="nav__link" href="about">About</a>
+      </nav>
+
+      <button id="hamburger" class="hamburger" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="mobile-menu" role="dialog" aria-label="Mobile Menu">
+      <a href="index" class="mobile-menu__link"><i class="fas fa-home"></i> Home</a>
+      <a href="portfolio" class="mobile-menu__link"><i class="fas fa-briefcase"></i> Portfolio</a>
+      <div class="mobile-menu__group mobile-menu__group--has-submenu">
+        <div class="mobile-menu__group-head">
+          <a href="publications" class="mobile-menu__link mobile-menu__link--parent"><i class="fas fa-newspaper"></i> Publications</a>
+          <button class="mobile-menu__toggle" type="button" aria-label="Open Publications menu" aria-expanded="false" aria-controls="mobile-publications-submenu">
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+        </div>
+        <div id="mobile-publications-submenu" class="mobile-menu__submenu" aria-hidden="true">
+          <a href="publications/articles" class="mobile-menu__link mobile-menu__link--sub"><i class="fas fa-file-lines"></i> Articles</a>
+          <a href="publications#reports" class="mobile-menu__link mobile-menu__link--sub"><i class="fas fa-chart-column"></i> Reports</a>
+          <a href="publications#research" class="mobile-menu__link mobile-menu__link--sub"><i class="fas fa-book-open"></i> Research</a>
+        </div>
+      </div>
+      <a href="services" class="mobile-menu__link"><i class="fas fa-cogs"></i> Services</a>
+      <a href="Consultants" class="mobile-menu__link"><i class="fas fa-users"></i> Consultants</a>
+      <a href="contact" class="mobile-menu__link"><i class="fas fa-envelope"></i> Contact</a>
+      <a href="about" class="mobile-menu__link"><i class="fas fa-info-circle"></i> About</a>
+    </div>
+  </header>
+
+  <main id="content" class="content" tabindex="-1">
+    <section class="section about-founder">
+      <div class="container">
+        <div class="about-founder__card">
+          <div class="about-founder__portrait-wrap">
+            <div class="about-founder__portrait" aria-hidden="true">
+              <img class="about-founder__img" src="imgs/sadsa.png" alt="" />
+            </div>
+          </div>
+
+          <div class="about-founder__copy">
+            <p class="about-eyebrow">Founder&rsquo;s Message</p>
+            <h2 class="section__title">John Wesley Tawa</h2>
+            <p class="about-founder__role">Founder, Glondia Analysts &amp; Consultancy</p>
+            <p>Welcome, and thank you for taking the time to learn about Glondia. We are passionate about helping Papua New Guinean enterprises scale with efficient resource allocation, stronger internal structure, and data-led decision-making.</p>
+            <p>Our ambition is to help SMEs grow their wealth and confidence across PNG and the Pacific. Markets are evolving, opportunities are opening, and many businesses need a partner that can help connect strategy with real implementation.</p>
+            <p class="about-founder__quote">Glondia is here to be a trusted business partner, not just another service provider.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-profile">
+      <div class="container">
+        <div class="about-profile__card">
+          <div class="about-profile__copy">
+            <p class="about-eyebrow">Company Profile</p>
+            <h2 class="section__title">Get the full Glondia profile in one clear overview.</h2>
+            <p class="section__intro">Our company profile brings together the core story, service focus, and business positioning behind Glondia in a format that is quick to review and easy to share.</p>
+            <div class="about-profile__highlights" aria-label="Profile highlights">
+              <span class="about-profile__pill">Capabilities overview</span>
+              <span class="about-profile__pill">Service snapshot</span>
+              <span class="about-profile__pill">Business positioning</span>
+            </div>
+          </div>
+
+          <div class="about-profile__aside">
+            <div class="about-profile__sheet" aria-hidden="true">
+              <p class="about-profile__sheet-label">Profile PDF</p>
+              <h3>Glondia Business Profile</h3>
+              <ul class="about-profile__sheet-list">
+                <li>About the business</li>
+                <li>Cross-functional support areas</li>
+                <li>Strategic and operational focus</li>
+              </ul>
+            </div>
+
+            <div class="about-profile__actions">
+              <a class="btn btn--primary" href="files/Glondia_Business_Profile_sample.pdf" download>
+                <i class="fa-solid fa-download" aria-hidden="true"></i>
+                <span>Download Profile</span>
+              </a>
+              <a class="btn btn--ghost" href="contact">Talk With Glondia</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer">
+    <div class="container footer__grid">
+      <section class="footer__col">
+        <h4 class="footer__title">Glondia</h4>
+        <p class="footer__text">We partner with SMEs through analytics, economics, finance, and strategy so better decisions lead to stronger growth.</p>
+      </section>
+      <section class="footer__col">
+        <h4 class="footer__title">Quick Links</h4>
+        <ul class="footer__list">
+          <li><a class="footer__link" href="index">Home</a></li>
+          <li><a class="footer__link" href="services">Services</a></li>
+          <li><a class="footer__link" href="publications">Publications</a></li>
+          <li><a class="footer__link" href="portfolio">Portfolio</a></li>
+          <li><a class="footer__link" href="contact">Contact</a></li>
+        </ul>
+      </section>
+      <section class="footer__col">
+        <h4 class="footer__title">Next Step</h4>
+        <p><a href="apply" class="btn btn--primary" id="apply-btn">Apply Now</a></p>
+        <small>&copy; <span id="year"></span> Glondia Analysts &amp; Consultancy</small>
+      </section>
+    </div>
+  </footer>
+
+  <script src="site.js" defer></script>
+</body>
+</html>

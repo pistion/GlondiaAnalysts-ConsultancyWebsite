@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project Portfolio &ndash; Glondia</title>
+  <link rel="stylesheet" href="site.css" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body id="page--portfolio-jobs" class="page">
+  <header id="site-header" class="site-header" role="banner">
+    <div class="container header__inner">
+      <a class="brand" id="brand" href="index" aria-label="Glondia home">
+        <img class="brand__logo" src="imgs/logo.png" alt="Glondia logo" />
+        <span class="brand__name">Glondia</span>
+      </a>
+
+      <nav id="primary-nav" class="nav" aria-label="Primary">
+        <a class="nav__link" href="index">Home</a>
+        <a class="nav__link" href="portfolio">Portfolio</a>
+        <div class="nav__item nav__item--has-menu">
+          <a class="nav__link" href="publications">Publications</a>
+          <div class="nav__dropdown" aria-label="Publications categories">
+            <a class="nav__dropdown-link" href="publications/articles">Articles</a>
+            <a class="nav__dropdown-link" href="publications#reports">Reports</a>
+            <a class="nav__dropdown-link" href="publications#research">Research</a>
+          </div>
+        </div>
+        <a class="nav__link" href="services">Services</a>
+        <a class="nav__link" href="Consultants">Consultants</a>
+        <a class="nav__link" href="contact">Contact</a>
+        <a class="nav__link" href="about">About</a>
+      </nav>
+
+      <button id="hamburger" class="hamburger" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="mobile-menu" role="dialog" aria-label="Mobile Menu">
+      <a href="index" class="mobile-menu__link"><i class="fas fa-home"></i> Home</a>
+      <a href="portfolio" class="mobile-menu__link"><i class="fas fa-briefcase"></i> Portfolio</a>
+      <div class="mobile-menu__group mobile-menu__group--has-submenu">
+        <div class="mobile-menu__group-head">
+          <a href="publications" class="mobile-menu__link mobile-menu__link--parent"><i class="fas fa-newspaper"></i> Publications</a>
+          <button class="mobile-menu__toggle" type="button" aria-label="Open Publications menu" aria-expanded="false" aria-controls="mobile-publications-submenu">
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+        </div>
+        <div id="mobile-publications-submenu" class="mobile-menu__submenu" aria-hidden="true">
+          <a href="publications/articles" class="mobile-menu__link mobile-menu__link--sub"><i class="fas fa-file-lines"></i> Articles</a>
+          <a href="publications#reports" class="mobile-menu__link mobile-menu__link--sub"><i class="fas fa-chart-column"></i> Reports</a>
+          <a href="publications#research" class="mobile-menu__link mobile-menu__link--sub"><i class="fas fa-book-open"></i> Research</a>
+        </div>
+      </div>
+      <a href="services" class="mobile-menu__link"><i class="fas fa-cogs"></i> Services</a>
+      <a href="Consultants" class="mobile-menu__link"><i class="fas fa-users"></i> Consultants</a>
+      <a href="contact" class="mobile-menu__link"><i class="fas fa-envelope"></i> Contact</a>
+      <a href="about" class="mobile-menu__link"><i class="fas fa-info-circle"></i> About</a>
+    </div>
+  </header>
+
+  <main id="content" class="content" tabindex="-1">
+    <section id="portfolio" class="section portfolio">
+      <div class="container">
+        <h2 class="section__title">Our Portfolio of Projects &amp; Contracts</h2>
+        <p class="section__intro">Explore recent work, active engagements, and upcoming projects across analytics, systems, policy, finance, and business strategy.</p>
+
+        <div id="portfolio-filters" class="filters" aria-label="Portfolio filters">
+          <button class="chip is-active" data-filter="all">All</button>
+          <button class="chip" data-filter="current">Current Projects</button>
+          <button class="chip" data-filter="recent">Recent Work</button>
+          <button class="chip" data-filter="upcoming">Upcoming &amp; Pipeline</button>
+          <button class="chip" data-filter="it">IT &amp; Data Systems</button>
+          <button class="chip" data-filter="economic">Economic &amp; Policy</button>
+          <button class="chip" data-filter="finance">Finance &amp; Investment</button>
+        </div>
+
+        <div id="portfolio-grid" class="grid">
+          <article class="card card--project-compact" data-tags="current it">
+            <div class="thumb thumb--project thumb--current thumb--roxanneai">
+              <span class="project-media-badge">Current Project</span>
+            </div>
+            <div class="card__body card__body--project">
+              <div class="project-header">
+                <h3 class="card__title card__title--project">RoxanneAI</h3>
+                <p class="project-kicker">Platform Development Report</p>
+              </div>
+              <p class="muted project-summary">An AI platform for generation, secure credit-managed workflows, and project-aware website editing through the Roxanne SiteCraft environment.</p>
+              <div class="project-footer">
+                <div class="project-metrics" aria-label="Project highlights">
+                  <span class="project-metric"><i class="fa-regular fa-file-lines" aria-hidden="true"></i><span>2026 report</span></span>
+                  <span class="project-metric"><i class="fa-solid fa-robot" aria-hidden="true"></i><span>4 key functions</span></span>
+                </div>
+                <div class="project-actions">
+                  <a href="files/roxanneai-development-report.pdf" class="btn btn--primary btn--sm" target="_blank" rel="noopener">PDF Report</a>
+                  <a href="https://roxanneai-n1as.onrender.com/" class="btn btn--ghost btn--sm" target="_blank" rel="noopener">Website</a>
+                </div>
+              </div>
+              <div id="roxanneai-details" class="project-details" aria-hidden="true">
+                <div class="project-details__inner">
+                  <p class="project-details__label">Key functions</p>
+                  <ul class="project-functions">
+                    <li>Modular intent orchestration across extraction, dispatching, parsing, validation, and normalization layers.</li>
+                    <li>Text, image, voice, and video generation backed by credit controls, token trimming, and quota-safe error handling.</li>
+                    <li>SiteCraft AI editing with Monaco IDE workflows, virtual file caching, live preview, and deployment-ready update flow.</li>
+                    <li>Deep project indexing and dependency mapping so the assistant can understand and edit sites with real project context.</li>
+                  </ul>
+                  <div class="tags"><span class="tag">AI Platform</span><span class="tag">SiteCraft</span><span class="tag">Automation</span><span class="tag">Intelligent Editing</span></div>
+                </div>
+              </div>
+              <button
+                class="project-toggle project-toggle--footer"
+                type="button"
+                aria-expanded="false"
+                aria-controls="roxanneai-details"
+                aria-label="Show key functions"
+              >
+                <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+              </button>
+            </div>
+          </article>
+
+          <article class="card card--project-compact" data-tags="recent finance">
+            <div class="thumb thumb--project thumb--recent">
+              <span class="project-media-badge">Recent Project</span>
+            </div>
+            <div class="card__body card__body--project">
+              <div class="project-header">
+                <h3 class="card__title card__title--project">Retail Investment Expansion</h3>
+                <p class="project-kicker">Finance &amp; Modeling</p>
+              </div>
+              <p class="muted project-summary">Completed in early 2025, this project involved comprehensive financial modeling for a regional retail expansion strategy.</p>
+              <div class="project-footer">
+                <div class="project-metrics" aria-label="Project highlights">
+                  <span class="project-metric"><i class="fa-regular fa-calendar" aria-hidden="true"></i><span>2025 completed</span></span>
+                  <span class="project-metric"><i class="fa-solid fa-coins" aria-hidden="true"></i><span>Finance model</span></span>
+                </div>
+                <div class="project-actions">
+                  <a href="#" class="btn btn--primary btn--sm">View Project</a>
+                  <a href="#" class="btn btn--ghost btn--sm">Download Summary</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card card--project-compact" data-tags="recent it">
+            <div class="thumb thumb--project thumb--recent thumb--heya">
+              <span class="project-media-badge">Recent Project</span>
+            </div>
+            <div class="card__body card__body--project">
+              <div class="project-header">
+                <h3 class="card__title card__title--project">HEYA Limited</h3>
+                <p class="project-kicker">Full-Stack Website Delivery</p>
+              </div>
+              <p class="muted project-summary">Built a full-stack recruitment and workforce solutions website for HEYA Limited, combining branded public pages, enquiry capture, admin-ready submissions, and a live rollout for www.heya.com.pg.</p>
+              <div class="project-footer">
+                <div class="project-metrics" aria-label="Project highlights">
+                  <span class="project-metric"><i class="fa-solid fa-globe" aria-hidden="true"></i><span>Custom domain live</span></span>
+                  <span class="project-metric"><i class="fa-solid fa-server" aria-hidden="true"></i><span>Render deployment</span></span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://www.heya.com.pg/" class="btn btn--primary btn--sm" target="_blank" rel="noopener">Website</a>
+                </div>
+              </div>
+              <div id="heya-limited-details" class="project-details" aria-hidden="true">
+                <div class="project-details__inner">
+                  <p class="project-details__label">Configurations &amp; domain setup</p>
+                  <ul class="project-functions">
+                    <li>Built the public-facing HEYA Limited website on a Node, Express, and EJS stack with structured routing for services, enquiries, and branded recruitment content.</li>
+                    <li>Configured persistent SQLite submissions storage so contact, vacancy, and employer enquiry data could be captured reliably in production.</li>
+                    <li>Installed SendGrid-driven notification flows and business email configuration using <code>admin@heya.com.pg</code> for internal alerts and client acknowledgements.</li>
+                    <li>Connected an OpenAI-powered chat assistant with environment-based configuration, request limits, and a fallback knowledge flow for safer user support.</li>
+                    <li>Prepared Render deployment with Node 20+, Singapore-region hosting, automated health checks, commit-based deploys, and mounted <code>/var/data</code> storage.</li>
+                    <li>Completed the custom domain and DNS setup for <code>heya.com.pg</code> and the live site at <code>www.heya.com.pg</code>.</li>
+                  </ul>
+                  <div class="tags"><span class="tag">Full Stack</span><span class="tag">Render</span><span class="tag">Cloudflare DNS</span><span class="tag">heya.com.pg</span></div>
+                </div>
+              </div>
+              <button
+                class="project-toggle project-toggle--footer"
+                type="button"
+                aria-expanded="false"
+                aria-controls="heya-limited-details"
+                aria-label="Show configurations and domain setup"
+                data-show-label="Show configurations and domain setup"
+                data-hide-label="Hide configurations and domain setup"
+              >
+                <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+              </button>
+            </div>
+          </article>
+
+          <article class="card card--project-compact" data-tags="current it">
+            <div class="thumb thumb--project thumb--current thumb--zest">
+              <span class="project-media-badge">Current Project</span>
+            </div>
+            <div class="card__body card__body--project">
+              <div class="project-header">
+                <h3 class="card__title card__title--project">Zest Online Market</h3>
+                <p class="project-kicker">Full-Stack Marketplace Platform</p>
+              </div>
+              <p class="muted project-summary">Built a full-stack online marketplace for product discovery, buyer journeys, seller storefronts, and live digital commerce through the Zest Online Market platform.</p>
+              <div class="project-footer">
+                <div class="project-metrics" aria-label="Project highlights">
+                  <span class="project-metric"><i class="fa-solid fa-store" aria-hidden="true"></i><span>Live marketplace</span></span>
+                  <span class="project-metric"><i class="fa-solid fa-users-gear" aria-hidden="true"></i><span>Buyer + seller flows</span></span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://zestonlinemarket.onrender.com/" class="btn btn--primary btn--sm" target="_blank" rel="noopener">Website</a>
+                </div>
+              </div>
+              <div id="zest-online-market-details" class="project-details" aria-hidden="true">
+                <div class="project-details__inner">
+                  <p class="project-details__label">Platform scope</p>
+                  <ul class="project-functions">
+                    <li>Delivered a live marketplace experience across product browsing, store discovery, seller handles, and individual product pages through the public marketplace routes.</li>
+                    <li>Built buyer-facing flows for feed discovery, profile management, checkout, purchases, and following interactions to support a complete shopper journey.</li>
+                    <li>Built seller-side onboarding and operations with store setup, template settings, dashboard tools, and order-ready storefront management.</li>
+                    <li>Configured the production runtime on Node, Express, and PostgreSQL with migrations, CSRF-protected authentication, and optional Google and Facebook sign-in support.</li>
+                  </ul>
+                  <div class="tags"><span class="tag">Marketplace</span><span class="tag">PostgreSQL</span><span class="tag">Buyer &amp; Seller</span><span class="tag">Live Platform</span></div>
+                </div>
+              </div>
+              <button
+                class="project-toggle project-toggle--footer"
+                type="button"
+                aria-expanded="false"
+                aria-controls="zest-online-market-details"
+                aria-label="Show platform scope"
+                data-show-label="Show platform scope"
+                data-hide-label="Hide platform scope"
+              >
+                <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+              </button>
+            </div>
+          </article>
+
+          <article class="card card--project-compact" data-tags="current economic">
+            <div class="thumb thumb--project thumb--current">
+              <span class="project-media-badge">Current Work</span>
+            </div>
+            <div class="card__body card__body--project">
+              <div class="project-header">
+                <h3 class="card__title card__title--project">PNG SME Market Initiative</h3>
+                <p class="project-kicker">Economic &amp; Policy Advisory</p>
+              </div>
+              <p class="muted project-summary">An active consulting engagement assessing SME growth policies and regional funding opportunities.</p>
+              <div class="project-footer">
+                <div class="project-metrics" aria-label="Project highlights">
+                  <span class="project-metric"><i class="fa-solid fa-briefcase" aria-hidden="true"></i><span>Active engagement</span></span>
+                  <span class="project-metric"><i class="fa-solid fa-chart-line" aria-hidden="true"></i><span>Regional policy</span></span>
+                </div>
+                <div class="project-actions">
+                  <a href="#" class="btn btn--primary btn--sm">View Project</a>
+                  <a href="#" class="btn btn--ghost btn--sm">Download Brief</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card card--project-compact" data-tags="current it">
+            <div class="thumb thumb--project thumb--current">
+              <span class="project-media-badge">Current Work</span>
+            </div>
+            <div class="card__body card__body--project">
+              <div class="project-header">
+                <h3 class="card__title card__title--project">BI Dashboard Deployment</h3>
+                <p class="project-kicker">Analytics &amp; Visualization</p>
+              </div>
+              <p class="muted project-summary">Design and deployment of a PowerBI dashboard for ongoing sales and supply chain analysis.</p>
+              <div class="project-footer">
+                <div class="project-metrics" aria-label="Project highlights">
+                  <span class="project-metric"><i class="fa-solid fa-chart-simple" aria-hidden="true"></i><span>Live dashboard</span></span>
+                  <span class="project-metric"><i class="fa-solid fa-table-cells-large" aria-hidden="true"></i><span>PowerBI build</span></span>
+                </div>
+                <div class="project-actions">
+                  <a href="#" class="btn btn--primary btn--sm">View Demo</a>
+                  <a href="#" class="btn btn--ghost btn--sm">Download Report</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card card--project-compact" data-tags="upcoming finance">
+            <div class="thumb thumb--project thumb--upcoming thumb--trade-store">
+              <span class="project-media-badge">Pipeline</span>
+            </div>
+            <div class="card__body card__body--project">
+              <div class="project-header">
+                <h3 class="card__title card__title--project">Trade Store Business Analysis Report</h3>
+                <p class="project-kicker">Retail &amp; Commercial Review</p>
+              </div>
+              <p class="muted project-summary">Pipeline business report designed for trade store operators and investors who need clearer analysis on margins, stock movement, customer demand, and practical growth opportunities.</p>
+              <div class="project-footer">
+                <div class="project-metrics" aria-label="Project highlights">
+                  <span class="project-metric"><i class="fa-regular fa-calendar" aria-hidden="true"></i><span>2026 pipeline</span></span>
+                  <span class="project-metric"><i class="fa-solid fa-store" aria-hidden="true"></i><span>Business report</span></span>
+                </div>
+                <div class="project-actions">
+                  <a href="#" class="btn btn--primary btn--sm">Preview Report</a>
+                  <a href="#" class="btn btn--ghost btn--sm">Download Scope</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card card--project-compact" data-tags="upcoming strategy">
+            <div class="thumb thumb--project thumb--upcoming thumb--hire-car">
+              <span class="project-media-badge">Pipeline</span>
+            </div>
+            <div class="card__body card__body--project">
+              <div class="project-header">
+                <h3 class="card__title card__title--project">Hire Car Services Business Analysis Report</h3>
+                <p class="project-kicker">Transport &amp; Service Operations Review</p>
+              </div>
+              <p class="muted project-summary">Pipeline report for hire car businesses focused on fleet performance, utilisation, operating costs, service demand, and the next commercial decisions needed for sustainable growth.</p>
+              <div class="project-footer">
+                <div class="project-metrics" aria-label="Project highlights">
+                  <span class="project-metric"><i class="fa-regular fa-calendar" aria-hidden="true"></i><span>2026 pipeline</span></span>
+                  <span class="project-metric"><i class="fa-solid fa-car-side" aria-hidden="true"></i><span>Industry report</span></span>
+                </div>
+                <div class="project-actions">
+                  <a href="#" class="btn btn--primary btn--sm">Preview Report</a>
+                  <a href="#" class="btn btn--ghost btn--sm">Download Scope</a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer">
+    <div class="container footer__grid">
+      <section class="footer__col">
+        <h4 class="footer__title">Glondia</h4>
+        <p class="footer__text">We deliver results across analytics, economics, finance, and strategic projects by building value through clear insight and strong execution.</p>
+      </section>
+      <section class="footer__col">
+        <h4 class="footer__title">Quick Links</h4>
+        <ul class="footer__list">
+          <li><a class="footer__link" href="index">Home</a></li>
+          <li><a class="footer__link" href="services">Services</a></li>
+          <li><a class="footer__link" href="publications">Publications</a></li>
+          <li><a class="footer__link" href="portfolio">Portfolio</a></li>
+          <li><a class="footer__link" href="contact">Contact</a></li>
+        </ul>
+      </section>
+      <section class="footer__col">
+        <h4 class="footer__title">Next Step</h4>
+        <p><button class="btn btn--primary" id="apply-btn" type="button">Work With Us</button></p>
+        <small>&copy; <span id="year"></span> Glondia Analysts &amp; Consultancy</small>
+      </section>
+    </div>
+  </footer>
+
+  <script src="site.js" defer></script>
+</body>
+</html>

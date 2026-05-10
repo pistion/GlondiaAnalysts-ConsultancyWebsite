@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Roxanne AI Chat &ndash; Glondia</title>
+  <link rel="stylesheet" href="site.css" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body id="page--ai-chat" class="page">
+  <header id="site-header" class="site-header" role="banner">
+    <div class="container header__inner">
+      <a class="brand" href="index" aria-label="Glondia home">
+        <img class="brand__logo" src="imgs/logo.png" alt="Glondia logo" />
+        <span class="brand__name">Glondia</span>
+      </a>
+
+      <nav id="primary-nav" class="nav" aria-label="Primary">
+        <a class="nav__link" href="index">Home</a>
+        <a class="nav__link" href="portfolio">Portfolio</a>
+        <div class="nav__item nav__item--has-menu">
+          <a class="nav__link" href="publications">Publications</a>
+          <div class="nav__dropdown" aria-label="Publications categories">
+            <a class="nav__dropdown-link" href="publications/articles">Articles</a>
+            <a class="nav__dropdown-link" href="publications#reports">Reports</a>
+            <a class="nav__dropdown-link" href="publications#research">Research</a>
+          </div>
+        </div>
+        <a class="nav__link" href="services">Services</a>
+        <a class="nav__link" href="Consultants">Consultants</a>
+        <a class="nav__link" href="contact">Contact</a>
+        <a class="nav__link" href="about">About</a>
+      </nav>
+
+      <button id="hamburger" class="hamburger" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="mobile-menu" role="dialog" aria-label="Mobile Menu">
+      <a href="index" class="mobile-menu__link"><i class="fas fa-home"></i> Home</a>
+      <a href="portfolio" class="mobile-menu__link"><i class="fas fa-briefcase"></i> Portfolio</a>
+      <div class="mobile-menu__group mobile-menu__group--has-submenu">
+        <div class="mobile-menu__group-head">
+          <a href="publications" class="mobile-menu__link mobile-menu__link--parent"><i class="fas fa-newspaper"></i> Publications</a>
+          <button class="mobile-menu__toggle" type="button" aria-label="Open Publications menu" aria-expanded="false" aria-controls="mobile-publications-submenu">
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+        </div>
+        <div id="mobile-publications-submenu" class="mobile-menu__submenu" aria-hidden="true">
+          <a href="publications/articles" class="mobile-menu__link mobile-menu__link--sub"><i class="fas fa-file-lines"></i> Articles</a>
+          <a href="publications#reports" class="mobile-menu__link mobile-menu__link--sub"><i class="fas fa-chart-column"></i> Reports</a>
+          <a href="publications#research" class="mobile-menu__link mobile-menu__link--sub"><i class="fas fa-book-open"></i> Research</a>
+        </div>
+      </div>
+      <a href="services" class="mobile-menu__link"><i class="fas fa-cogs"></i> Services</a>
+      <a href="Consultants" class="mobile-menu__link"><i class="fas fa-users"></i> Consultants</a>
+      <a href="contact" class="mobile-menu__link"><i class="fas fa-envelope"></i> Contact</a>
+      <a href="about" class="mobile-menu__link"><i class="fas fa-info-circle"></i> About</a>
+    </div>
+  </header>
+
+  <main id="content" class="content" tabindex="-1">
+    <section class="section roxanne-section">
+      <div class="container">
+        <div class="roxanne-layout">
+          <aside class="roxanne-panel roxanne-panel--intro">
+            <p class="roxanne-eyebrow">Roxanne by Glondia</p>
+            <h1 class="roxanne-title">A cleaner customer chat space built around live support, smarter routing, and API-ready delivery.</h1>
+            <p class="roxanne-lead">
+              This updated AI section turns the old placeholder into a real customer-facing chat experience.
+              Visitors can ask Roxanne about Glondia services, project needs, staffing support, reporting,
+              strategy, AI pipeline development, and where to go next.
+            </p>
+
+            <div class="roxanne-badges" aria-label="Roxanne highlights">
+              <span class="roxanne-badge">Customer chat</span>
+              <span class="roxanne-badge">API ready</span>
+              <span class="roxanne-badge">Roxanne themed</span>
+            </div>
+
+            <div class="roxanne-capabilities">
+              <article class="roxanne-capability">
+                <span class="roxanne-capability__icon"><i class="fa-solid fa-chart-line" aria-hidden="true"></i></span>
+                <div>
+                  <h2>Business guidance</h2>
+                  <p>Answer questions around analytics, reporting, strategy, and service fit.</p>
+                </div>
+              </article>
+
+              <article class="roxanne-capability">
+                <span class="roxanne-capability__icon"><i class="fa-solid fa-users-gear" aria-hidden="true"></i></span>
+                <div>
+                  <h2>Customer triage</h2>
+                  <p>Help visitors clarify what they need before they move into a proposal or contact flow.</p>
+                </div>
+              </article>
+
+              <article class="roxanne-capability">
+                <span class="roxanne-capability__icon"><i class="fa-solid fa-network-wired" aria-hidden="true"></i></span>
+                <div>
+                  <h2>Pipeline ready</h2>
+                  <p>Server-side routing is prepared for a live AI endpoint through environment configuration.</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="roxanne-note">
+              <span class="roxanne-note__icon"><i class="fa-solid fa-plug-circle-check" aria-hidden="true"></i></span>
+              <div>
+                <p class="roxanne-note__title">Configured for API reading</p>
+                <p class="roxanne-note__text">
+                  The page is wired to a dedicated Roxanne chat endpoint, so the live model can be connected on the server
+                  without reworking the customer interface.
+                </p>
+              </div>
+            </div>
+          </aside>
+
+          <section class="roxanne-console" aria-label="Roxanne customer chat">
+            <div class="roxanne-console__frame">
+              <div class="roxanne-console__header">
+                <div class="roxanne-console__identity">
+                  <span class="roxanne-console__avatar">R</span>
+                  <div>
+                    <p class="roxanne-console__name">Roxanne</p>
+                    <p class="roxanne-console__sub">Glondia customer assistant</p>
+                  </div>
+                </div>
+
+                <div class="roxanne-console__pills" aria-label="Workspace indicators">
+                  <span class="roxanne-console__pill">Live chat UI</span>
+                  <span class="roxanne-console__pill">Glondia services</span>
+                </div>
+              </div>
+
+              <div class="roxanne-console__intro">
+                <h2>Hi, I&rsquo;m Roxanne. What can I help you with today?</h2>
+                <p>Ask about services, request project guidance, or get routed toward the right Glondia support area.</p>
+              </div>
+
+              <div class="roxanne-suggestions" aria-label="Suggested prompts">
+                <button type="button" class="roxanne-suggestion" data-roxanne-prompt="What Glondia services would suit a growing SME that needs reporting and HR support?">Service fit for SMEs</button>
+                <button type="button" class="roxanne-suggestion" data-roxanne-prompt="Help me scope an AI pipeline development project for my business.">Scope an AI pipeline</button>
+                <button type="button" class="roxanne-suggestion" data-roxanne-prompt="What information should I prepare before booking a strategy consultation with Glondia?">Prepare for consultation</button>
+                <button type="button" class="roxanne-suggestion" data-roxanne-prompt="I need help with analytics, dashboards, and management reporting. Where should I start?">Reporting and analytics</button>
+              </div>
+
+              <div id="roxanne-chat-log" class="roxanne-chat-log" aria-live="polite">
+                <article class="roxanne-message roxanne-message--assistant">
+                  <div class="roxanne-message__avatar">R</div>
+                  <div class="roxanne-message__content">
+                    <p class="roxanne-message__meta">Roxanne</p>
+                    <div class="roxanne-message__bubble">
+                      Welcome to Roxanne. I can help customers explore Glondia services, think through project needs,
+                      and point them toward the right next step.
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+              <form id="roxanne-chat-form" class="roxanne-composer" data-endpoint="/api/roxanne-chat">
+                <button type="button" class="roxanne-composer__plus" aria-hidden="true" tabindex="-1">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                  </svg>
+                </button>
+
+                <textarea
+                  id="roxanne-input"
+                  name="message"
+                  rows="1"
+                  placeholder="Ask Roxanne about strategy, staffing, analytics, reporting, or AI pipeline work"
+                ></textarea>
+
+                <div class="roxanne-composer__actions">
+                  <button
+                    type="button"
+                    class="roxanne-composer__icon"
+                    id="roxanne-voice"
+                    aria-label="Voice mode coming soon"
+                    title="Voice mode coming soon"
+                  >
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M12 2a3 3 0 0 1 3 3v6a3 3 0 0 1-6 0V5a3 3 0 0 1 3-3zM5 11a7 7 0 0 0 14 0M12 18v4M8 22h8" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
+                    </svg>
+                  </button>
+
+                  <button id="roxanne-send" type="submit" class="roxanne-composer__submit" aria-label="Send message">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M5 12h12M13 6l6 6-6 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    </svg>
+                  </button>
+                </div>
+              </form>
+
+              <p id="roxanne-chat-status" class="roxanne-chat-status">Roxanne is ready for customer questions.</p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer">
+    <div class="container footer__grid">
+      <section class="footer__col">
+        <h4 class="footer__title">Glondia</h4>
+        <p class="footer__text">We partner with SMEs through analytics, economics, finance, strategy, and digital systems so better decisions lead to stronger growth.</p>
+      </section>
+      <section class="footer__col">
+        <h4 class="footer__title">Quick Links</h4>
+        <ul class="footer__list">
+          <li><a class="footer__link" href="index">Home</a></li>
+          <li><a class="footer__link" href="services">Services</a></li>
+          <li><a class="footer__link" href="publications">Publications</a></li>
+          <li><a class="footer__link" href="portfolio">Portfolio</a></li>
+          <li><a class="footer__link" href="contact">Contact</a></li>
+        </ul>
+      </section>
+      <section class="footer__col">
+        <h4 class="footer__title">Next Step</h4>
+        <p><a href="apply" class="btn btn--primary">Apply Now</a></p>
+        <small>&copy; <span id="year"></span> Glondia Analysts &amp; Consultancy</small>
+      </section>
+    </div>
+  </footer>
+
+  <script src="site.js" defer></script>
+  <script src="roxanne-chat.js" defer></script>
+</body>
+</html>
